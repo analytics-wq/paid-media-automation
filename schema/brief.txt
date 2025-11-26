@@ -1,0 +1,20 @@
+﻿client_name:
+NUS Executive Education
+project_name:
+Cambridge Executive Leadership Programme
+market:
+Singapore, India, Indonesia, Thailand, Philippines, Japan, Australia, Vietnam, Taiwan
+industry:
+Higher Education – Executive Programmes
+objective:
+Generate qualified leads to enhance programme applications.
+mode:
+BUDGET_DRIVEN
+budget:
+SGD 85,000
+target_kpi_type:
+Qualified Leads (Brochure Download → Applications)
+audience_description: 
+Senior executives aged 35–60, including C-suite, Directors, Business Unit Heads, and senior professionals in strategy, leadership, digital transformation, AI, sustainability, and governance. Motivated by global strategy exposure, leadership advancement, and executive credibility.
+mandatory_channels:
+LinkedIn, Google Search, Google Performance Max
