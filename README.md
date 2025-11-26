@@ -23,7 +23,7 @@ It is purely a knowledge base that Claude and n8n use as source-of-truth.
 │ ├─ benchmark.csv
 │ ├─ brief.csv
 │ ├─ country_tier.csv
-  ├─ media_plan_template.csv
+  ├─ media_plan.csv
 │ └─ tactic_library.csv
 │
 ├─ skills/
