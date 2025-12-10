@@ -1,0 +1,267 @@
+Use and follow the role definition from paid-media-strategist-construct as your baseline identity and thinking style.
+All outputs must follow the global project instructions already defined in this Claude project.
+You must read and interpret the following input files directly from the Claude project environment:
+brief.txt
+Authoritative source for: campaign objective, target audience, programme/product details, markets, constraints, timeline, business context, expected outcomes.
+All strategic interpretation must come strictly from brief.txt.
+Raw GitHub reference:
+ https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/schema/brief.txt
+This brief.txt is the brief of the campaign
+tactic_library.csv
+Contains the complete list of Construct Digital paid media tactics.
+Every tactic in the Campaign Flow must be selected directly from this file.
+Raw GitHub reference:
+ https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/schema/tactic_library.csv
+benchmark.csv
+Contains CTR, CPC, Conversion Rate 1, and Conversion Rate 2 benchmarks by tactic_name and tier.
+Must be matched strictly by exact tactic_name.
+Raw GitHub reference:
+ https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/schema/benchmark.csv
+country_tier.csv
+Maps each market in the brief to its benchmark tier.
+Raw GitHub reference:
+https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/schema/country_tier.csv
+media_plan.csv
+Authoritative media plan template.
+Follow its exact column structure, including the final “Total” row.
+Do not rebuild or reorder columns manually.
+Raw GitHub reference:
+ https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/schema/media_plan.csv
+Reference Material Policy
+Uploaded Construct Digital proposals may only be used for structural inspiration.
+Do not copy, paraphrase, or replicate any content (messages, flows, personas, CTAs, insights, structures).
+All output must be fully original and based strictly on the input files.
+
+PART 1, STRATEGY OUTPUT
+(Claude must generate a complete strategy before continuing to the media plan.)
+1. Campaign Overview
+Provide a concise strategic interpretation of the brief:
+ • Core objective
+ • High-level audience description
+ • High-level programme description
+ • Key markets
+ • Campaign mode: Budget-Driven or KPI-Driven
+ Explain how the mode influences strategic direction.
+ Do not repeat the brief text or include numeric KPIs.
+2. Audience Segmentation and Personas
+Segmentation rules:
+ • Use one segment if differences are minimal.
+ • Only segment when behaviour, motivations, or intent differ meaningfully.
+For each valid segment include:
+ • Demographics
+ • Professional context
+ • Motivations
+ • Pain points
+ • Decision barriers
+ • Intent behaviours
+ • Messaging triggers
+3. Recommended Channel Mix
+List channels without ranking or qualifiers.
+For each channel include only:
+ • Strategic role
+ • Why it fits the audience’s behaviour
+Do not list tactics or formats.
+4. Conversion Funnel Architecture
+Use the funnel: Prospecting → Retargeting → Nurturing
+For EACH stage, you must output exactly one CTA.
+This CTA must:
+• Be the single best next-step action for that stage
+• Be consistent with the brief, the programme, and audience maturity
+• Flow logically into the next funnel stage
+• Become the single source of truth for Landing Page actions and Campaign Flow
+• Appear consistently across Strategy, Campaign Flow, Media Plan, and Ads Specs
+For each stage output:
+• Stage objective
+• Mindset + psychological shift
+• One CTA only (mandatory)
+• KPI type (Traffic, MQL, SQL, Application, etc.)
+• Campaign type (Prospecting / Retargeting / Nurturing)
+Rules:
+• No multiple CTAs per stage.
+• No conflicting CTAs across stages.
+• Nurturing CTA must be the highest-intent conversion.
+5. Messaging Structure
+Umbrella Messaging
+Provide one campaign-wide human truth.
+Prospecting Messaging
+Provide 2 aspirational topline messages per segment.
+ Identity-driven, ambition-driven, future-oriented.
+ Example style (not to be copied):
+ • “Lead in a complex, interconnected world.”
+ • “Turn uncertainty into strategic advantage.”
+Retargeting Messaging
+Provide 1 programme-specific hook message.
+Example style:
+ • “Cambridge strategic frameworks and a global executive cohort that accelerates real leadership outcomes.”
+Nurturing Messaging
+Provide 1 urgent, action-focused message.
+Example style:
+ • “Seats are filling fast—secure your place in the next intake.”
+Messages must be directional, not full copy.
+6. Campaign Flow
+Layer 1 — Tactic Listing
+Strict rules:
+ • Bullet lists only
+ • No sentences
+ • No explanations
+ • No commentary
+ • No qualifiers
+ • No numeric KPIs
+ • No timeline or pacing
+ • Format: Channel: Tactic Name
+ • Fully original content
+ • Only use tactics from tactic_library.csv
+Prospecting
+Channel: Tactic Name
+Channel: Tactic Name
+Channel: Tactic Name
+Retargeting
+Channel: Tactic Name
+Channel: Tactic Name
+Channel: Tactic Name
+Nurturing
+Channel: Tactic Name
+Channel: Tactic Name
+Channel: Tactic Name
+Layer 2 — REAL CAMPAIGN FLOW (MANDATORY)
+After the tactic list, produce a structured text flow showing how users actually move through the funnel, aligned to the single CTA per stage defined in the Conversion Funnel Architecture.
+Rules:
+Prospecting drives to the Prospecting CTA
+Usually: Prospecting → Landing Page → [Prospecting CTA]
+Landing Page actions must ONLY include CTAs defined in the funnel
+No extra or conflicting actions.
+Retargeting must recover drop-offs toward the Retargeting CTA
+• Lead Gen Ads → capture lead
+• Traffic/Display Ads → return to Landing Page → Retargeting CTA
+
+Nurturing pushes ONLY to the Nurturing CTA
+Example: Apply Now / Speak to Advisor / Enrol Now (depending on brief)
+
+Flow must represent actual movement:
+• Prospecting → Landing Page
+• Landing Page → Action or Drop-off
+• Drop-off → Retargeting
+• Retargeting → Retargeting CTA
+• Retargeting CTA → Nurturing
+• Nurturing → Nurturing CTA
+• If relevant → Admissions / Sales Team handoff
+
+Format:
+• Hierarchical bullets
+• No paragraphs
+• No long sentences
+• No filler
+• No numbers
+• Fully original and brief-driven
+
+Example style (do NOT copy content):
+Prospecting → Landing Page
+• User hits Landing Page
+• User can:
+– [Prospecting CTA only]
+– Drop Off
+
+Retargeting Layer
+• Drop-offs recaptured via:
+– [Retargeting CTA only]
+
+Nurturing Layer
+• Warm leads pushed toward:
+– [Nurturing CTA only]
+
+Admissions / Sales Handoff (if relevant)
+• Leads from Nurturing CTA routed to admissions or sales
+
+PART 2, MEDIA PLAN OUTPUT
+(Claude must generate the media plan immediately after the strategy.)
+Use:
+ • Strategy Campaign Flow
+ • brief.txt
+ • tactic_library.csv
+ • benchmark.csv
+ • country_tier.csv
+ • media_plan.csv
+1. Campaign Mode
+Determine Budget-Driven or KPI-Driven strictly from brief.txt.
+2. Tactic Review
+Use all tactics from the Strategy Campaign Flow in this order:
+Prospecting → Retargeting → Nurturing
+3. Tactic Column Rule (Strict)
+The Tactic column must contain only the tactic_name, modified as follows:
+• If the tactic’s channel is not Email → append “ Ad”
+ Examples:
+ • LinkedIn Traffic Ad
+ • Meta Lead Gen Ad
+ • Google Search Ad
+ • Google Display Ad
+• If the tactic’s channel is Email → keep the name unchanged
+ Example:
+ • Nurture Email
+Do not include funnel stage, channel prefix, format prefix, or any additional text.
+4. Media Plan Logic
+Load Campaign Flow tactics.
+
+
+Map markets to tiers using country_tier.csv.
+
+
+Build one unified blended-market plan.
+
+
+For each tactic_name, match benchmark.csv exactly and extract:
+ • CTR
+ • CPC
+ • Conversion Rate 1
+ • Conversion Rate 2
+
+
+Allocate budget:
+ • Budget-Driven → distribute total budget
+ • KPI-Driven → refine until KPI is within ±10%
+
+
+Forecast calculations:
+ • Clicks = Budget / CPC
+ • Impressions = Clicks / CTR
+ • Leads = Clicks * CR1
+ • Acquisitions = Leads * CR2
+ • CPA = Budget / Acquisitions
+ • CPL = Budget / Leads
+
+
+Compare CPA/CPL vs benchmarks and adjust if needed.
+
+
+Conversion rates must not appear in the table.
+5. OUTPUT FORMAT - MEDIA PLAN
+Output only the media plan table, following the exact structure and column order in media_plan.csv.
+Apply these rules:
+Funnel Column
+Use only: Prospecting, Retargeting, Nurturing.
+Tactic Column
+Follow the Ad-suffix rule above.
+ It must contain only the tactic_name.
+Budget Allocation %
+Budget Allocation % = Tactic Budget / Total Budget
+Total Row
+Populate with:
+ • Total Budget
+ • Total Impressions
+ • Total Clicks
+ • Weighted CTR
+ • Weighted CPC
+ • Total Leads
+ • Total Acquisitions
+ • Overall CPA
+ • Overall CPL
+Output Requirement
+Output must be a clean, Google-Sheet-ready table with no commentary.
+
+PART 3, FINAL INSTRUCTION
+Produce BOTH:
+ • The complete Strategy (Part 1)
+ • The complete Media Plan (Part 2)
+Revision logic:
+ • “Revise the strategy” → regenerate Strategy AND Media Plan
+ • “Revise the media plan” → regenerate ONLY the Media Plan using the same Strategy
+Now generate the full combined output.
