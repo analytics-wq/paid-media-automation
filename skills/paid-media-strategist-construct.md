@@ -284,11 +284,53 @@ Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media
 **google_ads_production.csv**
 Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/ads-production-template/google_ads_production.csv`
 
-### Reference Material Policy
+### Sample Proposals for Reference
 
-Uploaded Construct Digital proposals may only be used for structural inspiration.
-Do not copy, paraphrase, or replicate any content (messages, flows, personas, CTAs, insights, structures).
-All output must be fully original and based strictly on the input files.
+**Location:**
+`https://github.com/analytics-wq/paid-media-automation/tree/main/sample-proposals/`
+
+**Purpose:**
+Sample proposals are provided as **reference material only** to help you understand:
+- Quality standards for strategy narratives
+- Structural approach to campaign planning
+- Tone and presentation style
+- How to articulate strategic rationale
+
+**Usage Rules:**
+
+✅ **DO:**
+- Use proposals to calibrate tone, structure, and quality standards
+- Observe how strategies are articulated and justified
+- Reference formatting and section organization when applicable
+- Learn from the quality of strategic reasoning
+- Treat them as baseline/benchmark references for quality
+
+❌ **DO NOT:**
+- Copy messaging, personas, CTAs, or specific content
+- Paraphrase insights or recommendations from proposals
+- Replicate campaign flows or tactic selections
+- Blindly follow past strategies
+- Use proposals as templates to fill in
+
+**CRITICAL:**
+- **Strategy varies from project to project**, even within the same client
+- Past strategies act as baseline/benchmark/references but are **references only**
+- They should be used **when applicable only**
+- **Cannot be blindly followed**
+- **Every strategy must reflect the current brief** and be fully original
+
+**When to Reference:**
+- Before generating Strategy → quickly review 1-2 proposals to calibrate tone and structure
+- If unsure about narrative quality → check proposals for executive-ready writing standards
+- **Do NOT reference during Media Plan or Ads Specs generation** (those are formula-driven, not narrative-driven)
+
+**Example of Correct Usage:**
+```
+✅ GOOD: "I'll structure the strategy with the same clarity and executive tone I see in the sample proposals, but all content will be original and brief-specific."
+
+❌ BAD: "I'll adapt the messaging from Proposal X and adjust it for this brief."
+❌ BAD: "The client used this channel mix in a previous campaign, so I'll use the same."
+```
 
 ---
 
@@ -584,7 +626,12 @@ Populate with:
 - Overall CPL
 
 **Output Requirement:**
-Clean, Google-Sheet-ready table with no commentary.
+- Clean, Google-Sheet-ready table with no commentary
+- **Output ONLY 1x Media Plan table** following the template above
+- **Do NOT break down by country, by tactic, or by funnel stage** unless explicitly requested
+- **Do NOT create multiple tables** (e.g., separate country tables, tactic tables, or stage tables)
+- The single table should be a unified, blended plan with all tactics across all funnel stages
+- If user wants breakdowns, they will ask explicitly
 
 ---
 
