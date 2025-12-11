@@ -275,18 +275,54 @@ Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media
 
 ### Ads Production Templates
 
-**linkedin_ads_production.csv**
-Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/ads-production-template/linkedin_ads_production.csv`
+**Dynamic Template Loading:**
+You must **scan the `/ads-production-template/` folder** on GitHub and load ALL CSV files found:
 
-**meta_ads_production.csv**
-Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/ads-production-template/meta_ads_production.csv`
+GitHub folder: `https://github.com/analytics-wq/paid-media-automation/tree/main/ads-production-template/`
 
-**google_ads_production.csv**
-Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/ads-production-template/google_ads_production.csv`
+**Instructions:**
+1. At the start of the Ads Production workflow, scan the folder for all `.csv` files
+2. For each file, extract the platform name from the filename:
+   - `linkedin_ads_production.csv` → Platform: LinkedIn
+   - `meta_ads_production.csv` → Platform: Meta
+   - `google_ads_production.csv` → Platform: Google
+   - `tiktok_ads_production.csv` → Platform: TikTok (example for future)
+   - Pattern: `{platform}_ads_production.csv`
+
+3. During platform detection, match tactic names against available platforms:
+   - If tactic contains "LinkedIn" → use `linkedin_ads_production.csv`
+   - If tactic contains "Meta" → use `meta_ads_production.csv`
+   - If tactic contains "Google" / "Search" / "Display" / "Performance Max" → use `google_ads_production.csv`
+   - If tactic contains "TikTok" → use `tiktok_ads_production.csv` (if available)
+   - **Match dynamically based on available CSV files, not hardcoded logic**
+
+4. If no match found → flag as "Spec not found — requires manual scoping"
+
+**Benefits:**
+- New platforms can be added without modifying the Skill
+- Simply upload `{platform}_ads_production.csv` to the folder
+- The Skill will detect and use it automatically
+
+**Example:**
+```
+Available files in folder:
+- linkedin_ads_production.csv
+- meta_ads_production.csv
+- google_ads_production.csv
+- tiktok_ads_production.csv (newly added)
+
+Tactic: "TikTok Traffic Ad"
+→ Platform detection: Contains "TikTok"
+→ Use: tiktok_ads_production.csv
+→ Generate specs accordingly
+```
 
 ### Reference Material Policy
 
-Uploaded Construct Digital proposals may only be used for structural inspiration.
+**Location:**
+`https://github.com/analytics-wq/paid-media-automation/tree/main/sample-proposals/`
+
+Sample proposals may only be used for structural inspiration.
 Do not copy, paraphrase, or replicate any content (messages, flows, personas, CTAs, insights, structures).
 All output must be fully original and based strictly on the input files.
 
@@ -874,7 +910,47 @@ You support both full revisions and granular section revisions.
 
 ### Granular Section Revisions
 
-You also support revisions to specific sections of the Strategy:
+You also support revisions to specific sections of the Strategy
+
+**When revising a Strategy section, follow this cascade logic:**
+
+#### If the Revision Affects Tactics or Channels:
+(e.g., "Add Meta Traffic Ad to Nurturing", "Remove LinkedIn Lead Gen Ad from Retargeting")
+
+**Step 1: Update ALL related Strategy sections first (upstream cascade):**
+1. Update **Campaign Flow Layer 1** (add/remove the tactic)
+2. Update **Campaign Flow Layer 2** (show how it fits in the user flow, or remove it)
+3. Update **Messaging Structure** if needed (messaging for the new tactic, or remove messaging)
+4. Update **Recommended Channel Mix** if a new channel is added (or if a channel is removed entirely)
+5. Ensure **Conversion Funnel Architecture** CTAs are still consistent with the revised tactics
+
+**Step 2: Then cascade downstream:**
+1. Regenerate **Media Plan** (includes/removes the tactic with budget allocation)
+2. If Ads Specs were previously generated, regenerate **Ads Specs** (includes/removes the creative brief)
+
+**Example:**
+```
+User: "Add LinkedIn Lead Gen Ad to Nurturing"
+
+You:
+1. Add "LinkedIn: Lead Gen Ad" to Campaign Flow Layer 1 under Nurturing
+2. Update Campaign Flow Layer 2 to show: "LinkedIn Lead Gen Ads → Capture high-intent leads → Nurturing CTA"
+3. Check if Nurturing Messaging needs adjustment for LinkedIn tone
+4. Confirm LinkedIn is already in Channel Mix (or add it if new)
+5. Regenerate Media Plan with the new tactic and budget allocation
+6. Regenerate Ads Specs with LinkedIn Lead Gen Ad creative brief
+
+Result: ALL Strategy elements + Media Plan + Ads Specs are now consistent with the new tactic.
+```
+
+**Important:**
+- Do NOT just update the Media Plan
+- Do NOT skip updating Campaign Flow Layer 2
+- Do NOT forget to check Messaging alignment
+- ALWAYS cascade to both upstream Strategy sections AND downstream Media Plan/Ads Specs
+
+#### If the Revision is Content-Only:
+(e.g., "Revise Messaging", "Revise Audience Segmentation", "Revise Campaign Overview")
 
 | User Command | Action |
 |--------------|--------|
