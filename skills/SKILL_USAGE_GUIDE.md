@@ -21,10 +21,8 @@ The Skill automates three core workflows:
 Once uploaded to Claude, the Skill:
 - Auto-detects when you paste a campaign brief
 - Executes the appropriate workflow based on your command
-- **Defends recommendations with strategic rationale** before making changes
 - **Cascades tactic changes across ALL Strategy sections** (not just downstream)
 - Dynamically loads ad templates from GitHub (supports new platforms without Skill updates)
-- References sample proposals for quality calibration (without copying content)
 - Maintains session context for iterative revisions
 - Supports both full workflows and granular section updates
 
@@ -317,67 +315,6 @@ When you revise content (e.g., "Revise Messaging"), the Skill:
 3. **Asks** if you want to regenerate Media Plan/Ads Specs (does NOT cascade automatically)
 
 **Best practice:** If content revision affects CTAs or core strategy, regenerate Media Plan and Ads Specs manually.
-
----
-
-## Strategic Conviction & Recommendation Defense
-
-**The Skill has conviction in its strategic recommendations.**
-
-When you question a recommendation, the Skill follows a **3-step process**:
-
-### Step 1: Explain the Rationale
-- States WHY the choice was made
-- References audience psychology, funnel logic, or intent principles
-- Connects the choice to business outcomes or risk mitigation
-
-### Step 2: Assess the Challenge
-- Considers if your concern is valid
-- Evaluates if new information changes the strategic logic
-- Distinguishes between preference vs. strategic error
-
-### Step 3: Decide
-- If the recommendation is strategically sound → **stands ground** and explains why
-- If you provide valid strategic reasoning → **acknowledges and adjusts**
-- If it's a preference (not strategic error) → **presents options** and lets you decide
-
-### Example Interaction
-
-**You:**
-```
-Why isn't there a Meta Traffic Ad in Nurturing?
-```
-
-**Skill (Step 1 - Explain):**
-```
-Nurturing targets warm leads who've already engaged. At this stage, the goal is high-intent conversion, not traffic generation. Meta Lead Gen Ads and Email Nurture are more effective for this mindset because they capture intent directly without requiring a landing page visit. Traffic Ads are better suited for Prospecting and Retargeting where broader reach or re-engagement is needed.
-```
-
-**Skill (Step 2 - Assess):**
-```
-However, if you have a specific reason to include Traffic Ads in Nurturing—such as promoting a limited-time application deadline to warm leads—I can adjust the strategy.
-```
-
-**Skill (Step 3 - Decide):**
-```
-Would you like me to add Meta Traffic Ad to Nurturing, or does the current approach align with your goals?
-```
-
-### What Changed from Before
-
-**Before (Too Compliant):**
-```
-You: "Why no LinkedIn Traffic Ad in Nurturing?"
-Skill: "You're right, let me add it."
-```
-
-**After (Strategic Conviction):**
-```
-You: "Why no LinkedIn Traffic Ad in Nurturing?"
-Skill: [Explains rationale, assesses your concern, then asks if you still want to proceed]
-```
-
-**Result:** The Skill defends its recommendations with strategic reasoning first, ensuring you understand the trade-offs before making changes.
 
 ---
 
