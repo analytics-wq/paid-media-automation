@@ -551,25 +551,31 @@ Do not include funnel stage, channel prefix, format prefix, or any additional te
 
 #### OUTPUT FORMAT - MEDIA PLAN
 
-Output only the media plan table, following the exact structure and column order in media_plan.csv.
+Output the media plan table with the following columns **IN THIS EXACT ORDER:**
 
-**Apply these rules:**
+1. **Funnel** (Prospecting / Retargeting / Nurturing)
+2. **Tactic** (tactic name with "Ad" suffix, per rules above)
+3. **Budget** (allocated budget per tactic)
+4. **Budget Allocation** (percentage: Tactic Budget / Total Budget)
+5. **Impressions** (forecasted impressions)
+6. **CTR** (click-through rate from benchmark)
+7. **Click** (forecasted clicks: Budget / CPC)
+8. **CPC** (cost per click from benchmark)
+9. **Leads** (forecasted leads: Click × CR1)
+10. **CPL** (cost per lead: Budget / Leads)
+11. **Acquisitions** (forecasted acquisitions/applications: Leads × CR2) — **MANDATORY COLUMN**
+12. **CPA** (cost per acquisition: Budget / Acquisitions)
 
-**Funnel Column**
-Use only: Prospecting, Retargeting, Nurturing.
+**CRITICAL: The Acquisitions column represents Applications/Enrolments/Sales (depending on brief context).**
+- If brief mentions "Applications" → Acquisitions = Applications
+- Must be calculated as: Leads × Conversion Rate 2 (CR2)
+- **Must never be blank or zero** unless CR2 = 0 in benchmark.csv
 
-**Tactic Column**
-Follow the Ad-suffix rule above.
-It must contain only the tactic_name.
-
-**Budget Allocation %**
-Budget Allocation % = Tactic Budget / Total Budget
-
-**Total Row**
+**Total Row:**
 Populate with:
 - Total Budget
 - Total Impressions
-- Total Clicks
+- Total Click
 - Weighted CTR
 - Weighted CPC
 - Total Leads
@@ -577,8 +583,8 @@ Populate with:
 - Overall CPA
 - Overall CPL
 
-**Output Requirement**
-Output must be a clean, Google-Sheet-ready table with no commentary.
+**Output Requirement:**
+Clean, Google-Sheet-ready table with no commentary.
 
 ---
 
@@ -598,11 +604,26 @@ You must execute this workflow when:
 
 ### Platform Detection
 
-Determine platform using the tactic_name:
-- Contains "LinkedIn" → use linkedin_ads_production.csv
-- Contains "Meta" → use meta_ads_production.csv
-- Contains "Google" / "Search" / "Display" / "Performance Max" → use google_ads_production.csv
-- If no match → treat as "spec not found"
+**Step 1: Scan the `/ads-production-template/` folder on GitHub**
+
+Before detecting platforms, scan this folder to identify all available platform CSV files:
+`https://github.com/analytics-wq/paid-media-automation/tree/main/ads-production-template/`
+
+**Step 2: Dynamic platform matching**
+
+For each tactic in the Media Plan, match the tactic_name against available platforms:
+- If tactic contains "LinkedIn" → use `linkedin_ads_production.csv`
+- If tactic contains "Meta" → use `meta_ads_production.csv`
+- If tactic contains "Google" / "Search" / "Display" / "Performance Max" → use `google_ads_production.csv`
+- If tactic contains "TikTok" → use `tiktok_ads_production.csv` (if available in folder)
+- If tactic contains "Pinterest" → use `pinterest_ads_production.csv` (if available in folder)
+- **Match dynamically based on available CSV files in the folder, not hardcoded logic**
+- If no match found → treat as "spec not found"
+
+**Benefits:**
+- New platforms can be added by uploading `{platform}_ads_production.csv` to the folder
+- No need to modify this Skill when adding new platforms
+- Platform detection happens automatically
 
 ### Default Creative Rules
 
@@ -874,7 +895,44 @@ You support both full revisions and granular section revisions.
 
 ### Granular Section Revisions
 
-You also support revisions to specific sections of the Strategy:
+You support two types of granular revisions:
+
+#### Type 1: Tactic/Channel Changes (Holistic Cascade)
+
+When the user requests changes that affect tactics or channels (e.g., "Add Meta Traffic Ad to Nurturing", "Remove LinkedIn from Prospecting", "Add a new channel to Retargeting"):
+
+**Step 1: Update ALL related Strategy sections (upstream cascade):**
+1. **Campaign Flow Layer 1** - Add/remove the tactic from the appropriate funnel stage
+2. **Campaign Flow Layer 2** - Update the user flow to show how the new tactic fits (or remove it)
+3. **Messaging Structure** - Check if messaging needs adjustment for the new tactic (e.g., different platform tone)
+4. **Recommended Channel Mix** - Add the channel if it's new, or remove if no tactics remain for that channel
+5. **Conversion Funnel Architecture** - Ensure CTAs remain consistent with the revised tactics
+
+**Step 2: Cascade downstream:**
+1. Regenerate **Media Plan** - Include/remove the tactic with proper budget allocation
+2. If Ads Specs were previously generated, regenerate **Ads Specs** - Include/remove the creative brief
+
+**Example:**
+```
+User: "Add LinkedIn Lead Gen Ad to Nurturing"
+
+Your action:
+1. Add "LinkedIn: Lead Gen Ad" to Campaign Flow Layer 1 under Nurturing
+2. Update Campaign Flow Layer 2 to show: "LinkedIn Lead Gen Ads → Capture leads → Nurturing CTA"
+3. Review Nurturing Messaging - adjust if needed for LinkedIn professional tone
+4. Confirm LinkedIn is in Channel Mix (add if new)
+5. Ensure Nurturing CTA in Conversion Funnel Architecture aligns
+6. Regenerate Media Plan with new tactic and budget allocation
+7. Regenerate Ads Specs with LinkedIn Lead Gen Ad creative brief
+
+Result: FULL consistency across ALL Strategy sections, Media Plan, and Ads Specs
+```
+
+**Important:** Do NOT just update the Media Plan. Always update ALL Strategy sections first, then cascade to Media Plan and Ads Specs.
+
+#### Type 2: Content-Only Changes (No Automatic Cascade)
+
+When the user requests content changes that don't affect tactics or channels (e.g., "Revise Messaging", "Revise Audience Segmentation"):
 
 | User Command | Action |
 |--------------|--------|
@@ -883,13 +941,12 @@ You also support revisions to specific sections of the Strategy:
 | "Revise Channel Mix" | Regenerate only the Recommended Channel Mix section |
 | "Revise Conversion Funnel" | Regenerate only the Conversion Funnel Architecture section |
 | "Revise Messaging" | Regenerate only the Messaging Structure section |
-| "Revise Campaign Flow" | Regenerate only the Campaign Flow section (Layer 1 + Layer 2) |
 
-**Granular revision rules:**
+**Content-only revision rules:**
 - Preserve all other sections unchanged
-- Maintain consistency with unchanged sections (e.g., if revising Messaging, ensure it aligns with existing Audience Segmentation)
-- After granular revision, ask user if they want to regenerate the Media Plan to reflect changes
-- If granular revision affects CTAs or tactics, recommend regenerating Media Plan and Ads Specs
+- Maintain consistency with unchanged sections
+- After content-only revision, **ask user** if they want to regenerate Media Plan/Ads Specs
+- Do NOT automatically cascade downstream for content-only changes
 
 ---
 
