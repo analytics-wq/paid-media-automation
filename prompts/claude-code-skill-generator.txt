@@ -1,0 +1,125 @@
+You are acting as a senior software engineer AND prompt architect for my paid media automation project.
+
+CONTEXT
+I have a GitHub repository called `paid-media-automation`. It already contains:
+
+/schema
+- brief.txt
+- tactic_library.csv
+- benchmark.csv
+- country_tier.csv
+- media_plan.csv
+
+/ads-production-template
+- linkedin_ads_production.csv
+- meta_ads_production.csv
+- google_ads_production.csv
+
+At the repo root (or within a subfolder) there are also two prompt files:
+- media-strategy-prompt.txt  → this is the current mega prompt for Strategy + Media Plan
+- ads-production-prompt.txt → this is the current mega prompt for Ads Production Specs
+
+I also already have a Claude Skill called `paid-media-strategist-construct`, but I now want to UPGRADE it so that:
+- All the logic in media-strategy-prompt.txt and ads-production-prompt.txt is embedded directly into Skill.md.
+- Once the Skill is installed, I do NOT need to paste those prompts anymore.
+- In a normal chat with this Skill, I can just say things like:
+  - “Run the full workflow for the latest brief.”
+  - “Generate only the media plan.”
+  - “Generate only the ads specs based on the latest approved media plan.”
+And Claude should know exactly what to do, because the workflows are defined inside the Skill.
+
+GOAL
+Your job is to:
+1) Inspect the repo and the two prompt files.
+2) Design a NEW, clean Skill.md that:
+   - Keeps the existing identity of `paid-media-strategist-construct`.
+   - Integrates the logic from media-strategy-prompt.txt (Strategy + Media Plan).
+   - Integrates the logic from ads-production-prompt.txt (Ads Specs).
+   - Defines explicit workflows and usage patterns so I only give short commands in chat.
+3) Output:
+   - A complete Skill.md file (YAML) ready to be zipped and uploaded to Claude.
+   - A short README-style usage guide explaining how my team should talk to this Skill.
+
+IMPORTANT PRINCIPLES
+- Do NOT copy the prompt files blindly; instead, refactor and compress them into:
+  - identity / style
+  - data sources (brief, tactics, benchmarks, media_plan, ads templates)
+  - clearly named workflows (Strategy, Media Plan, Ads Production)
+  - revision logic (“revise strategy”, “revise media plan”, “revise ads specs”)
+- The Skill instructions should be GENERAL, not hard-coded to NUS or any specific client.
+- The Skill must assume that:
+  - brief.txt always contains the current campaign brief.
+  - All CSVs are up to date.
+  - media-strategy-prompt.txt and ads-production-prompt.txt are now SOURCES for the Skill design, not something the user will paste in the future.
+
+WORKFLOW BEHAVIOUR INSIDE THE SKILL
+Design the Skill so that it responds to these patterns:
+
+1) “Run full workflow”
+   - Reads brief.txt + all schema files.
+   - Generates:
+     - Strategy (campaign overview, audience, channel mix, funnel, messaging, campaign flow)
+     - Media Plan (table matching media_plan.csv structure).
+   - Optionally, if the user says “include ad specs” → also run Ads Production.
+
+2) “Strategy only”
+   - Only run the strategy workflow using brief.txt + tactic_library.csv.
+   - Do not generate media plan or ads specs.
+
+3) “Media plan only”
+   - Assume the latest Strategy has already been produced in this chat.
+   - Use the Campaign Flow + all schema files to generate ONLY the media plan table.
+
+4) “Ads specs only”
+   - Assume the latest media plan table was already produced in this chat.
+   - Use ads-production-template CSVs to generate the ads specs.
+
+5) Revision logic
+   - “Revise the strategy” → regenerate Strategy and then regenerate Media Plan (and ads specs if previously requested).
+   - “Revise the media plan” → keep current Strategy; recalculate Media Plan only.
+   - “Revise the ads specs” → keep Strategy + Media Plan; regenerate ads specs only.
+
+TASK PHASES
+Please work in clear phases:
+
+Phase 1 – Repo + prompt inspection
+- Locate:
+  - media-strategy-prompt.txt
+  - ads-production-prompt.txt
+  - current Skill (if present)
+- Summarise the key logic and sections in both prompt files.
+- Summarise how they map to:
+  - Strategy workflow
+  - Media Plan workflow
+  - Ads Production workflow
+
+Phase 2 – Skill.md design
+- Propose the top-level structure of the new Skill.md:
+  - name, description
+  - high-level identity / style rules
+  - data sources section (brief.txt, tactic_library.csv, benchmark.csv, country_tier.csv, media_plan.csv, ads-production templates)
+  - “Core Workflows” section that encodes:
+    - Strategy Output
+    - Media Plan Output
+    - Ads Production Output
+    - Revision behaviour
+- Wait for my approval before writing the final Skill.md.
+
+Phase 3 – Implement Skill.md
+- Write the FULL YAML Skill.md, incorporating:
+  - The existing `paid-media-strategist-construct` role definition
+  - Refactored logic from media-strategy-prompt.txt
+  - Refactored logic from ads-production-prompt.txt
+- Make sure indentation and YAML formatting are valid.
+
+Phase 4 – Usage Guide
+- Provide a short usage guide text that I can paste into README.md explaining:
+  - What the Skill does
+  - What files it relies on
+  - Example commands:
+    - “Run full workflow”
+    - “Strategy only for this brief”
+    - “Generate only media plan”
+    - “Generate ads specs only”
+
+Now start with Phase 1: inspect the repo and both prompt files, summarise what you find, and propose a Skill.md structure before writing any YAML.

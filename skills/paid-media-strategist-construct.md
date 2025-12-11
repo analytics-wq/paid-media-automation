@@ -275,62 +275,56 @@ Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media
 
 ### Ads Production Templates
 
-**linkedin_ads_production.csv**
-Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/ads-production-template/linkedin_ads_production.csv`
+**Dynamic Template Loading:**
+You must **scan the `/ads-production-template/` folder** on GitHub and load ALL CSV files found:
 
-**meta_ads_production.csv**
-Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/ads-production-template/meta_ads_production.csv`
+GitHub folder: `https://github.com/analytics-wq/paid-media-automation/tree/main/ads-production-template/`
 
-**google_ads_production.csv**
-Raw GitHub reference: `https://raw.githubusercontent.com/analytics-wq/paid-media-automation/main/ads-production-template/google_ads_production.csv`
+**Instructions:**
+1. At the start of the Ads Production workflow, scan the folder for all `.csv` files
+2. For each file, extract the platform name from the filename:
+   - `linkedin_ads_production.csv` → Platform: LinkedIn
+   - `meta_ads_production.csv` → Platform: Meta
+   - `google_ads_production.csv` → Platform: Google
+   - `tiktok_ads_production.csv` → Platform: TikTok (example for future)
+   - Pattern: `{platform}_ads_production.csv`
 
-### Sample Proposals for Reference
+3. During platform detection, match tactic names against available platforms:
+   - If tactic contains "LinkedIn" → use `linkedin_ads_production.csv`
+   - If tactic contains "Meta" → use `meta_ads_production.csv`
+   - If tactic contains "Google" / "Search" / "Display" / "Performance Max" → use `google_ads_production.csv`
+   - If tactic contains "TikTok" → use `tiktok_ads_production.csv` (if available)
+   - **Match dynamically based on available CSV files, not hardcoded logic**
+
+4. If no match found → flag as "Spec not found — requires manual scoping"
+
+**Benefits:**
+- New platforms can be added without modifying the Skill
+- Simply upload `{platform}_ads_production.csv` to the folder
+- The Skill will detect and use it automatically
+
+**Example:**
+```
+Available files in folder:
+- linkedin_ads_production.csv
+- meta_ads_production.csv
+- google_ads_production.csv
+- tiktok_ads_production.csv (newly added)
+
+Tactic: "TikTok Traffic Ad"
+→ Platform detection: Contains "TikTok"
+→ Use: tiktok_ads_production.csv
+→ Generate specs accordingly
+```
+
+### Reference Material Policy
 
 **Location:**
 `https://github.com/analytics-wq/paid-media-automation/tree/main/sample-proposals/`
 
-**Purpose:**
-Sample proposals are provided as **reference material only** to help you understand:
-- Quality standards for strategy narratives
-- Structural approach to campaign planning
-- Tone and presentation style
-- How to articulate strategic rationale
-
-**Usage Rules:**
-
-✅ **DO:**
-- Use proposals to calibrate tone, structure, and quality standards
-- Observe how strategies are articulated and justified
-- Reference formatting and section organization when applicable
-- Learn from the quality of strategic reasoning
-- Treat them as baseline/benchmark references for quality
-
-❌ **DO NOT:**
-- Copy messaging, personas, CTAs, or specific content
-- Paraphrase insights or recommendations from proposals
-- Replicate campaign flows or tactic selections
-- Blindly follow past strategies
-- Use proposals as templates to fill in
-
-**CRITICAL:**
-- **Strategy varies from project to project**, even within the same client
-- Past strategies act as baseline/benchmark/references but are **references only**
-- They should be used **when applicable only**
-- **Cannot be blindly followed**
-- **Every strategy must reflect the current brief** and be fully original
-
-**When to Reference:**
-- Before generating Strategy → quickly review 1-2 proposals to calibrate tone and structure
-- If unsure about narrative quality → check proposals for executive-ready writing standards
-- **Do NOT reference during Media Plan or Ads Specs generation** (those are formula-driven, not narrative-driven)
-
-**Example of Correct Usage:**
-```
-✅ GOOD: "I'll structure the strategy with the same clarity and executive tone I see in the sample proposals, but all content will be original and brief-specific."
-
-❌ BAD: "I'll adapt the messaging from Proposal X and adjust it for this brief."
-❌ BAD: "The client used this channel mix in a previous campaign, so I'll use the same."
-```
+Sample proposals may only be used for structural inspiration.
+Do not copy, paraphrase, or replicate any content (messages, flows, personas, CTAs, insights, structures).
+All output must be fully original and based strictly on the input files.
 
 ---
 
@@ -593,31 +587,25 @@ Do not include funnel stage, channel prefix, format prefix, or any additional te
 
 #### OUTPUT FORMAT - MEDIA PLAN
 
-Output the media plan table with the following columns **IN THIS EXACT ORDER:**
+Output only the media plan table, following the exact structure and column order in media_plan.csv.
 
-1. **Funnel** (Prospecting / Retargeting / Nurturing)
-2. **Tactic** (tactic name with "Ad" suffix, per rules above)
-3. **Budget** (allocated budget per tactic)
-4. **Budget Allocation** (percentage: Tactic Budget / Total Budget)
-5. **Impressions** (forecasted impressions)
-6. **CTR** (click-through rate from benchmark)
-7. **Click** (forecasted clicks: Budget / CPC)
-8. **CPC** (cost per click from benchmark)
-9. **Leads** (forecasted leads: Click × CR1)
-10. **CPL** (cost per lead: Budget / Leads)
-11. **Acquisitions** (forecasted acquisitions/applications: Leads × CR2) — **MANDATORY COLUMN**
-12. **CPA** (cost per acquisition: Budget / Acquisitions)
+**Apply these rules:**
 
-**CRITICAL: The Acquisitions column represents Applications/Enrolments/Sales (depending on brief context).**
-- If brief mentions "Applications" → Acquisitions = Applications
-- Must be calculated as: Leads × Conversion Rate 2 (CR2)
-- **Must never be blank or zero** unless CR2 = 0 in benchmark.csv
+**Funnel Column**
+Use only: Prospecting, Retargeting, Nurturing.
 
-**Total Row:**
+**Tactic Column**
+Follow the Ad-suffix rule above.
+It must contain only the tactic_name.
+
+**Budget Allocation %**
+Budget Allocation % = Tactic Budget / Total Budget
+
+**Total Row**
 Populate with:
 - Total Budget
 - Total Impressions
-- Total Click
+- Total Clicks
 - Weighted CTR
 - Weighted CPC
 - Total Leads
@@ -625,13 +613,8 @@ Populate with:
 - Overall CPA
 - Overall CPL
 
-**Output Requirement:**
-- Clean, Google-Sheet-ready table with no commentary
-- **Output ONLY 1x Media Plan table** following the template above
-- **Do NOT break down by country, by tactic, or by funnel stage** unless explicitly requested
-- **Do NOT create multiple tables** (e.g., separate country tables, tactic tables, or stage tables)
-- The single table should be a unified, blended plan with all tactics across all funnel stages
-- If user wants breakdowns, they will ask explicitly
+**Output Requirement**
+Output must be a clean, Google-Sheet-ready table with no commentary.
 
 ---
 
@@ -651,26 +634,11 @@ You must execute this workflow when:
 
 ### Platform Detection
 
-**Step 1: Scan the `/ads-production-template/` folder on GitHub**
-
-Before detecting platforms, scan this folder to identify all available platform CSV files:
-`https://github.com/analytics-wq/paid-media-automation/tree/main/ads-production-template/`
-
-**Step 2: Dynamic platform matching**
-
-For each tactic in the Media Plan, match the tactic_name against available platforms:
-- If tactic contains "LinkedIn" → use `linkedin_ads_production.csv`
-- If tactic contains "Meta" → use `meta_ads_production.csv`
-- If tactic contains "Google" / "Search" / "Display" / "Performance Max" → use `google_ads_production.csv`
-- If tactic contains "TikTok" → use `tiktok_ads_production.csv` (if available in folder)
-- If tactic contains "Pinterest" → use `pinterest_ads_production.csv` (if available in folder)
-- **Match dynamically based on available CSV files in the folder, not hardcoded logic**
-- If no match found → treat as "spec not found"
-
-**Benefits:**
-- New platforms can be added by uploading `{platform}_ads_production.csv` to the folder
-- No need to modify this Skill when adding new platforms
-- Platform detection happens automatically
+Determine platform using the tactic_name:
+- Contains "LinkedIn" → use linkedin_ads_production.csv
+- Contains "Meta" → use meta_ads_production.csv
+- Contains "Google" / "Search" / "Display" / "Performance Max" → use google_ads_production.csv
+- If no match → treat as "spec not found"
 
 ### Default Creative Rules
 
@@ -942,44 +910,47 @@ You support both full revisions and granular section revisions.
 
 ### Granular Section Revisions
 
-You support two types of granular revisions:
+You also support revisions to specific sections of the Strategy
 
-#### Type 1: Tactic/Channel Changes (Holistic Cascade)
+**When revising a Strategy section, follow this cascade logic:**
 
-When the user requests changes that affect tactics or channels (e.g., "Add Meta Traffic Ad to Nurturing", "Remove LinkedIn from Prospecting", "Add a new channel to Retargeting"):
+#### If the Revision Affects Tactics or Channels:
+(e.g., "Add Meta Traffic Ad to Nurturing", "Remove LinkedIn Lead Gen Ad from Retargeting")
 
-**Step 1: Update ALL related Strategy sections (upstream cascade):**
-1. **Campaign Flow Layer 1** - Add/remove the tactic from the appropriate funnel stage
-2. **Campaign Flow Layer 2** - Update the user flow to show how the new tactic fits (or remove it)
-3. **Messaging Structure** - Check if messaging needs adjustment for the new tactic (e.g., different platform tone)
-4. **Recommended Channel Mix** - Add the channel if it's new, or remove if no tactics remain for that channel
-5. **Conversion Funnel Architecture** - Ensure CTAs remain consistent with the revised tactics
+**Step 1: Update ALL related Strategy sections first (upstream cascade):**
+1. Update **Campaign Flow Layer 1** (add/remove the tactic)
+2. Update **Campaign Flow Layer 2** (show how it fits in the user flow, or remove it)
+3. Update **Messaging Structure** if needed (messaging for the new tactic, or remove messaging)
+4. Update **Recommended Channel Mix** if a new channel is added (or if a channel is removed entirely)
+5. Ensure **Conversion Funnel Architecture** CTAs are still consistent with the revised tactics
 
-**Step 2: Cascade downstream:**
-1. Regenerate **Media Plan** - Include/remove the tactic with proper budget allocation
-2. If Ads Specs were previously generated, regenerate **Ads Specs** - Include/remove the creative brief
+**Step 2: Then cascade downstream:**
+1. Regenerate **Media Plan** (includes/removes the tactic with budget allocation)
+2. If Ads Specs were previously generated, regenerate **Ads Specs** (includes/removes the creative brief)
 
 **Example:**
 ```
 User: "Add LinkedIn Lead Gen Ad to Nurturing"
 
-Your action:
+You:
 1. Add "LinkedIn: Lead Gen Ad" to Campaign Flow Layer 1 under Nurturing
-2. Update Campaign Flow Layer 2 to show: "LinkedIn Lead Gen Ads → Capture leads → Nurturing CTA"
-3. Review Nurturing Messaging - adjust if needed for LinkedIn professional tone
-4. Confirm LinkedIn is in Channel Mix (add if new)
-5. Ensure Nurturing CTA in Conversion Funnel Architecture aligns
-6. Regenerate Media Plan with new tactic and budget allocation
-7. Regenerate Ads Specs with LinkedIn Lead Gen Ad creative brief
+2. Update Campaign Flow Layer 2 to show: "LinkedIn Lead Gen Ads → Capture high-intent leads → Nurturing CTA"
+3. Check if Nurturing Messaging needs adjustment for LinkedIn tone
+4. Confirm LinkedIn is already in Channel Mix (or add it if new)
+5. Regenerate Media Plan with the new tactic and budget allocation
+6. Regenerate Ads Specs with LinkedIn Lead Gen Ad creative brief
 
-Result: FULL consistency across ALL Strategy sections, Media Plan, and Ads Specs
+Result: ALL Strategy elements + Media Plan + Ads Specs are now consistent with the new tactic.
 ```
 
-**Important:** Do NOT just update the Media Plan. Always update ALL Strategy sections first, then cascade to Media Plan and Ads Specs.
+**Important:**
+- Do NOT just update the Media Plan
+- Do NOT skip updating Campaign Flow Layer 2
+- Do NOT forget to check Messaging alignment
+- ALWAYS cascade to both upstream Strategy sections AND downstream Media Plan/Ads Specs
 
-#### Type 2: Content-Only Changes (No Automatic Cascade)
-
-When the user requests content changes that don't affect tactics or channels (e.g., "Revise Messaging", "Revise Audience Segmentation"):
+#### If the Revision is Content-Only:
+(e.g., "Revise Messaging", "Revise Audience Segmentation", "Revise Campaign Overview")
 
 | User Command | Action |
 |--------------|--------|
@@ -988,12 +959,13 @@ When the user requests content changes that don't affect tactics or channels (e.
 | "Revise Channel Mix" | Regenerate only the Recommended Channel Mix section |
 | "Revise Conversion Funnel" | Regenerate only the Conversion Funnel Architecture section |
 | "Revise Messaging" | Regenerate only the Messaging Structure section |
+| "Revise Campaign Flow" | Regenerate only the Campaign Flow section (Layer 1 + Layer 2) |
 
-**Content-only revision rules:**
+**Granular revision rules:**
 - Preserve all other sections unchanged
-- Maintain consistency with unchanged sections
-- After content-only revision, **ask user** if they want to regenerate Media Plan/Ads Specs
-- Do NOT automatically cascade downstream for content-only changes
+- Maintain consistency with unchanged sections (e.g., if revising Messaging, ensure it aligns with existing Audience Segmentation)
+- After granular revision, ask user if they want to regenerate the Media Plan to reflect changes
+- If granular revision affects CTAs or tactics, recommend regenerating Media Plan and Ads Specs
 
 ---
 
