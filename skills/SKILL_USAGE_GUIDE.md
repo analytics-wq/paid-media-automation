@@ -21,10 +21,8 @@ The Skill automates three core workflows:
 Once uploaded to Claude, the Skill:
 - Auto-detects when you paste a campaign brief
 - Executes the appropriate workflow based on your command
-- **Defends recommendations with strategic rationale** before making changes
 - **Cascades tactic changes across ALL Strategy sections** (not just downstream)
 - Dynamically loads ad templates from GitHub (supports new platforms without Skill updates)
-- References sample proposals for quality calibration (without copying content)
 - Maintains session context for iterative revisions
 - Supports both full workflows and granular section updates
 
@@ -74,18 +72,9 @@ All CSV files in this folder are automatically detected and loaded:
 
 **Location:** `/sample-proposals/` on GitHub
 
-Sample proposals are provided for **quality calibration and structural inspiration only**.
-
-**Usage Rules:**
-- ✅ **DO**: Reference for tone, structure, and quality standards
-- ❌ **DO NOT**: Copy messaging, personas, CTAs, or specific content
-
-**How the Skill Uses Them:**
-- Before generating Strategy → reviews 1-2 proposals to calibrate tone
-- All output remains **fully original** and **brief-specific**
-- Proposals are NOT used during Media Plan or Ads Specs generation
-
-**Critical:** The Skill will never copy or paraphrase from sample proposals. They serve only as examples of executive-ready quality.
+Sample proposals may only be used for structural inspiration.
+Do not copy, paraphrase, or replicate any content (messages, flows, personas, CTAs, insights, structures).
+All output must be fully original and based strictly on the input files.
 
 ---
 
@@ -277,9 +266,9 @@ Revisions cascade **forward** but not **backward**:
 
 **The Skill supports two types of granular revisions:**
 
-#### 1. Tactic/Channel Changes (Upstream + Downstream Cascade)
+#### If the Revision Affects Tactics or Channels:
 
-When you add or remove tactics (e.g., "Add Meta Traffic Ad to Nurturing"), the Skill:
+When you add or remove tactics (e.g., "Add Meta Traffic Ad to Nurturing", "Remove LinkedIn Lead Gen Ad from Retargeting"), the Skill:
 
 **Step 1: Updates ALL related Strategy sections (upstream cascade):**
 - Campaign Flow Layer 1 (adds/removes tactic)
@@ -298,86 +287,29 @@ You: "Add LinkedIn Lead Gen Ad to Nurturing"
 
 Skill:
 1. Adds "LinkedIn: Lead Gen Ad" to Campaign Flow Layer 1 under Nurturing
-2. Updates Campaign Flow Layer 2 to show how it drives to Nurturing CTA
-3. Checks Nurturing Messaging for LinkedIn tone alignment
-4. Confirms LinkedIn is in Channel Mix (or adds it)
-5. Regenerates Media Plan with new tactic
-6. Regenerates Ads Specs with LinkedIn Lead Gen Ad brief
+2. Updates Campaign Flow Layer 2 to show: "LinkedIn Lead Gen Ads → Capture high-intent leads → Nurturing CTA"
+3. Checks if Nurturing Messaging needs adjustment for LinkedIn tone
+4. Confirms LinkedIn is already in Channel Mix (or adds it if new)
+5. Regenerates Media Plan with the new tactic and budget allocation
+6. Regenerates Ads Specs with LinkedIn Lead Gen Ad creative brief
 
-Result: FULL consistency across Strategy, Media Plan, and Ads Specs
+Result: ALL Strategy elements + Media Plan + Ads Specs are now consistent with the new tactic.
 ```
 
-**Important:** The Skill will NOT just update the Media Plan. It updates ALL Strategy elements first, then cascades downstream.
+**Important:**
+- Do NOT just update the Media Plan
+- Do NOT skip updating Campaign Flow Layer 2
+- Do NOT forget to check Messaging alignment
+- ALWAYS cascade to both upstream Strategy sections AND downstream Media Plan/Ads Specs
 
-#### 2. Content-Only Changes (No Automatic Cascade)
+#### If the Revision is Content-Only:
 
-When you revise content (e.g., "Revise Messaging"), the Skill:
+When you revise content (e.g., "Revise Messaging", "Revise Audience Segmentation", "Revise Campaign Overview"), the Skill:
 1. Regenerates only that section
 2. Preserves all other sections unchanged
 3. **Asks** if you want to regenerate Media Plan/Ads Specs (does NOT cascade automatically)
 
 **Best practice:** If content revision affects CTAs or core strategy, regenerate Media Plan and Ads Specs manually.
-
----
-
-## Strategic Conviction & Recommendation Defense
-
-**The Skill has conviction in its strategic recommendations.**
-
-When you question a recommendation, the Skill follows a **3-step process**:
-
-### Step 1: Explain the Rationale
-- States WHY the choice was made
-- References audience psychology, funnel logic, or intent principles
-- Connects the choice to business outcomes or risk mitigation
-
-### Step 2: Assess the Challenge
-- Considers if your concern is valid
-- Evaluates if new information changes the strategic logic
-- Distinguishes between preference vs. strategic error
-
-### Step 3: Decide
-- If the recommendation is strategically sound → **stands ground** and explains why
-- If you provide valid strategic reasoning → **acknowledges and adjusts**
-- If it's a preference (not strategic error) → **presents options** and lets you decide
-
-### Example Interaction
-
-**You:**
-```
-Why isn't there a Meta Traffic Ad in Nurturing?
-```
-
-**Skill (Step 1 - Explain):**
-```
-Nurturing targets warm leads who've already engaged. At this stage, the goal is high-intent conversion, not traffic generation. Meta Lead Gen Ads and Email Nurture are more effective for this mindset because they capture intent directly without requiring a landing page visit. Traffic Ads are better suited for Prospecting and Retargeting where broader reach or re-engagement is needed.
-```
-
-**Skill (Step 2 - Assess):**
-```
-However, if you have a specific reason to include Traffic Ads in Nurturing—such as promoting a limited-time application deadline to warm leads—I can adjust the strategy.
-```
-
-**Skill (Step 3 - Decide):**
-```
-Would you like me to add Meta Traffic Ad to Nurturing, or does the current approach align with your goals?
-```
-
-### What Changed from Before
-
-**Before (Too Compliant):**
-```
-You: "Why no LinkedIn Traffic Ad in Nurturing?"
-Skill: "You're right, let me add it."
-```
-
-**After (Strategic Conviction):**
-```
-You: "Why no LinkedIn Traffic Ad in Nurturing?"
-Skill: [Explains rationale, assesses your concern, then asks if you still want to proceed]
-```
-
-**Result:** The Skill defends its recommendations with strategic reasoning first, ensuring you understand the trade-offs before making changes.
 
 ---
 
@@ -524,28 +456,21 @@ Structured narrative with 6 sections:
 
 ### Media Plan Output
 
-Google Sheets-ready table with **12 columns in this exact order:**
+Google Sheets-ready table following the exact structure and column order defined in `media_plan.csv`.
 
-1. **Funnel** (Prospecting / Retargeting / Nurturing)
-2. **Tactic** (tactic name with "Ad" suffix)
-3. **Budget** (allocated budget per tactic)
-4. **Budget Allocation** (percentage with % symbol)
-5. **Impressions** (forecasted impressions)
-6. **CTR** (click-through rate from benchmark)
-7. **Click** (forecasted clicks: Budget / CPC) — **Note: singular "Click", not "Clicks"**
-8. **CPC** (cost per click from benchmark)
-9. **Leads** (forecasted leads: Click × CR1)
-10. **CPL** (cost per lead: Budget / Leads)
-11. **Acquisitions** (forecasted acquisitions: Leads × CR2) — **This is Applications/Enrolments/Sales depending on brief context**
-12. **CPA** (cost per acquisition: Budget / Acquisitions)
+**Key columns include:**
+- **Funnel** (Prospecting / Retargeting / Nurturing)
+- **Tactic** (tactic name with "Ad" suffix per Skill rules)
+- **Budget** and **Budget Allocation %**
+- **Impressions, CTR, Click, CPC**
+- **Leads, CPL**
+- **Acquisitions, CPA** — Acquisitions represents final conversions (Applications/Enrolments/Sales depending on brief context)
 
 **Important Notes:**
-- **Acquisitions column** represents the final conversion (Applications, Enrolments, Sales, etc.)
+- **Acquisitions column** must never be blank or zero (unless CR2 = 0 in benchmark.csv)
 - If brief mentions "Applications" → Acquisitions = Applications
-- **This column must never be blank or zero** (unless CR2 = 0 in benchmark.csv)
-- Column naming follows media_plan.csv template exactly ("Click" not "Clicks", "Budget Allocation" not "Budget Allocation %")
-
-**Final row:** "TOTAL" with sums and weighted averages
+- Final row: "TOTAL" with sums and weighted averages
+- **Single unified table only** — no breakdowns by country/tactic/stage unless explicitly requested
 
 **Format:** Clean table ready to copy-paste into Google Sheets
 
