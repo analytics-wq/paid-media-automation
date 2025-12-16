@@ -1,0 +1,8 @@
+item_name,item_code,unit_cost,unit_type,currency
+Strategy & Planning,STR-001,5000,fixed,SGD
+Campaign Setup,SET-001,3000,fixed,SGD
+Campaign Management,MGT-001,2000,per_month,SGD
+Ad Asset,AST-001,500,per_asset,SGD
+Nurture Email,EML-001,300,per_email,SGD
+Landing Page,LP-001,2500,fixed,SGD
+Downloadable Resource,PDF-001,1500,fixed,SGD
