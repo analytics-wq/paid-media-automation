@@ -124,9 +124,12 @@ The Skill automatically detects when you paste content from `brief.txt` and runs
 | **"Run full workflow"** | Same as above | Strategy + Media Plan |
 | **"Generate ads production template"** | Generate creative brief | Ads Production Specs (all funnel stages) |
 | **"Generate ads specs"** | Same as above | Ads Production Specs |
+| **"Generate estimator"** | Generate campaign quotation | Campaign Quotation table |
+| **"Generate quotation"** | Same as above | Campaign Quotation table |
 | **"Strategy only"** | Generate strategy without media plan | Strategy (6 sections) only |
 | **"Media plan only"** | Generate media plan using existing strategy | Media Plan table only |
 | **"Ads specs only"** | Generate ads specs using existing media plan | Ads Production Specs only |
+| **"Estimator only"** | Generate quotation using existing strategy + media plan | Campaign Quotation table only |
 
 ### Revision Commands
 
@@ -137,6 +140,7 @@ The Skill automatically detects when you paste content from `brief.txt` and runs
 | **"Revise the strategy"** | Regenerate Strategy + Media Plan | **Cascades forward**: Also regenerates Ads Specs if they were previously generated |
 | **"Revise the media plan"** | Regenerate Media Plan only | **Cascades forward**: Also regenerates Ads Specs if they were previously generated. **Does NOT cascade backward** (keeps existing Strategy) |
 | **"Revise the ads specs"** | Regenerate Ads Specs only | **No cascade**: Keeps existing Strategy and Media Plan |
+| **"Revise the estimator"** | Regenerate Estimator only | **No cascade**: Keeps existing Strategy, Media Plan, and Ads Specs. Re-confirms classification and optional items |
 
 #### Granular Section Revisions
 
@@ -213,6 +217,68 @@ The Skill automatically detects when you paste content from `brief.txt` and runs
 
 ---
 
+### Workflow 3: Estimator
+
+**Trigger:** Explicit command ("Generate estimator", "Generate quotation", or "Estimator only")
+
+**Prerequisite:** Strategy and Media Plan must exist in session
+
+**Inputs:**
+- `ratecard.csv` (pricing data)
+- Latest Strategy output (campaign scope)
+- Latest Media Plan output (total media budget)
+- Latest Ads Specs output (asset counts, if available)
+- `brief.txt` (campaign duration)
+
+**Process:**
+1. **Campaign Classification:**
+   - Analyze campaign scope (assets, platforms, complexity, requirements)
+   - Recommend Essential or Custom classification
+   - Ask user for confirmation before proceeding
+
+2. **Identify Line Items:**
+   - **Fixed Items:** Strategy & Planning, Campaign Setup (units = 1)
+   - **Variable Items:** Campaign Management (per month), Campaign Assets (per asset), Nurture Emails (per email)
+   - **Optional Items:** Landing Page, Downloadable Resource, Extra Variants (ask user for confirmation)
+
+3. **Pricing Lookup:**
+   - Match each item in ratecard.csv by item_name or item_code
+   - Extract unit_cost, unit_type, currency
+   - Calculate: Total = unit_cost × units
+   - If no match found, ask user which item to use
+
+4. **Media Budget Integration:**
+   - Extract total media budget from Media Plan TOTAL row
+   - Add as separate line (client's paid media spend)
+
+5. **Generate Quotation Table:**
+   - 3-column format: Item | Description | Investment
+   - Classification displayed at top
+   - All Construct Digital deliverables + Media Budget
+   - Grand Total calculated
+
+**Output:**
+- Campaign Classification (Essential / Custom)
+- Quotation table with all line items
+- Grand Total (Construct Digital charges + Media Budget)
+- Notes (if asset counts approximated, duration assumed, optional items excluded)
+
+**Example Output Structure:**
+```
+CAMPAIGN CLASSIFICATION: Custom
+
+Item | Description | Investment
+-----|-------------|------------
+Planning | Campaign Strategy & Plan x1 – ... | SGD 18,240
+Setup | Campaign Setup x1 – ... | SGD 7,980
+Management | Monthly Campaign Management x6 – ... | SGD 24,000
+Campaign Assets | Prospecting x4, Retargeting x3, Nurturing x2 | SGD 4,500
+Media Budget | Ad platforms budget (third-party cost) | SGD 100,000
+TOTAL | TOTAL | SGD 154,720
+```
+
+---
+
 ## Workflow Dependencies
 
 ```
@@ -225,10 +291,12 @@ The Skill automatically detects when you paste content from `brief.txt` and runs
 │ Media Plan  │
 └──────┬──────┘
        │
-       ▼
-┌─────────────┐
-│  Ads Specs  │
-└─────────────┘
+       ├──────────────────┐
+       │                  │
+       ▼                  ▼
+┌─────────────┐    ┌─────────────┐
+│  Ads Specs  │    │  Estimator  │
+└─────────────┘    └─────────────┘
 ```
 
 ### Dependency Rules
@@ -243,9 +311,16 @@ The Skill automatically detects when you paste content from `brief.txt` and runs
    - Inherits CTAs from Strategy
    - Cannot run without Media Plan in session
 
-3. **Session Context**
+3. **Estimator requires Strategy + Media Plan**
+   - Uses campaign scope from Strategy (for classification)
+   - Uses total media budget from Media Plan
+   - Uses asset counts from Ads Specs (if available) or infers from Campaign Flow
+   - Uses campaign duration from brief.txt
+   - Cannot run without Strategy and Media Plan in session
+
+4. **Session Context**
    - Workflows operate within the current conversation
-   - "Media plan only" or "Ads specs only" require prerequisites in the same session
+   - "Media plan only", "Ads specs only", or "Estimator only" require prerequisites in the same session
    - If prerequisites are missing, Skill will prompt you to run the full workflow
 
 ---
@@ -643,7 +718,8 @@ paid-media-automation/
 │   ├── tactic_library.csv           # Approved tactics (input)
 │   ├── benchmark.csv                # Performance benchmarks (input)
 │   ├── country_tier.csv             # Market tier mapping (input)
-│   └── media_plan.csv               # Template structure (reference)
+│   ├── media_plan.csv               # Template structure (reference)
+│   └── ratecard.csv                 # Pricing data for Estimator (input)
 ├── ads-production-template/
 │   ├── linkedin_ads_production.csv  # LinkedIn specs (reference)
 │   ├── meta_ads_production.csv      # Meta specs (reference)
@@ -666,9 +742,11 @@ paid-media-automation/
 | Strategy only (no media plan) | `Strategy only` | None |
 | Media plan only | `Media plan only` | Strategy in session |
 | Ads specs | `Generate ads production template` | Media Plan in session |
+| Campaign quotation | `Generate estimator` or `Generate quotation` | Strategy + Media Plan in session |
 | Revise everything | `Revise the strategy` | Strategy in session |
 | Revise media plan only | `Revise the media plan` | Strategy + Media Plan in session |
 | Revise ads specs only | `Revise the ads specs` | Media Plan + Ads Specs in session |
+| Revise estimator only | `Revise the estimator` | Strategy + Media Plan + Estimator in session |
 | Revise specific section | `Revise [Section Name]` | Strategy in session |
 
 ---
