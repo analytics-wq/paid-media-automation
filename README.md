@@ -1,150 +1,296 @@
-# Paid Media Knowledge Base (for Claude Agents)
+# Paid Media Automation (Claude Skill)
 
 ## Overview
 
-This repository contains the structured reference data and skills required for Claude to generate accurate Paid Media campaign strategies, channel mixes, tactics, and media plans.
+This repository contains a fully automated **Claude Skill** for Paid Media campaign development at Construct Digital. It orchestrates end-to-end campaign workflows from strategy through media planning to quotation generation.
 
-Claude reads this repository to ensure outputs are:
+The Skill provides:
 
-- Consistent  
-- Non-hallucinated  
-- Based on Construct Digital’s actual benchmarks and tactic structures  
-- In line with our internal media planning philosophy  
+- **Automated workflow orchestration** across Strategy → Media Plan → Estimator
+- **Structured reference data** (benchmarks, tactics, pricing, ad specs)
+- **Standardized outputs** based on Construct Digital's methodology
+- **Session-based context management** with cascading revisions
+- **Non-hallucinated recommendations** grounded in real agency data
 
-This repository does not contain prompts or workflow files.  
-It is purely a knowledge base that Claude and n8n use as source-of-truth.
+Unlike a passive knowledge base, this is an **active automation system** that Claude uses to autonomously generate campaign deliverables through conversational workflows.
+
+---
+
+## Core Workflows
+
+### Workflow 1: Strategy
+**Generates:** Campaign strategy, funnel design, channel mix, tactical recommendations
+
+**Process:**
+1. Analyzes brief requirements
+2. Designs 3-stage funnel (Prospecting → Retargeting → Nurturing)
+3. Selects channels and tactics from tactic_library.csv
+4. Maps tactics to funnel stages
+5. Outputs structured campaign strategy
+
+### Workflow 2: Media Plan
+**Generates:** Media plan with budget allocation and performance projections
+
+**Process:**
+1. Allocates budget across channels and tactics
+2. Pulls performance benchmarks from benchmark.csv
+3. Calculates impressions, clicks, conversions, CPL
+4. Outputs formatted media plan table
+
+### Workflow 3: Estimator
+**Generates:** Campaign quotation (pricing estimate) for client
+
+**Process:**
+1. Classifies campaign (Essential vs Custom)
+2. Identifies line items (Fixed, Variable, Optional)
+3. Looks up pricing from ratecard.csv
+4. Integrates media budget from Media Plan
+5. Outputs 3-column quotation table
+
+**Dependencies:** Strategy → Media Plan → Estimator (sequential)
 
 ---
 
 ## Repository Structure
 
+```
 /
-├─ schema/
-│ ├─ benchmark.csv
-│ ├─ brief.csv
-│ ├─ country_tier.csv
-  ├─ media_plan.csv
-│ └─ tactic_library.csv
+├── schema/
+│   ├── benchmark.csv           # Performance benchmarks (CTR, CPC, CR, CPM)
+│   ├── brief.txt               # Input brief schema
+│   ├── country_tier.csv        # Market tier classifications
+│   ├── media_plan.csv          # Media plan output schema
+│   ├── ratecard.csv            # Construct Digital pricing (300KB+)
+│   └── tactic_library.csv      # Approved tactics and channels
 │
-├─ skills/
-│ └─ paid-media-strategist-construct.md
+├── skills/
+│   ├── paid-media-strategist-construct.md    # Main Skill file (workflows + logic)
+│   └── SKILL_USAGE_GUIDE.md                  # Usage documentation
 │
-└─ README.md
-
-
----
-
-## Folder & File Descriptions
-
-### `/schema/`
-
-Contains all structured data Claude must reference during strategy, tactics, and media plan generation.
-
-#### `benchmark.csv`
-Performance benchmarks used for estimation:
-- CTR  
-- CPC  
-- CR  
-- CPM  
-
-Across:
-- Channel  
-- Platform  
-- Objective  
-- Funnel stage  
-- Market  
-- Performance level (Low / Avg / High)
-
-Used by Claude to calculate impressions, clicks, conversions, and CPL.
-
-#### `brief.csv`
-Schema defining required input fields for proposal briefs:
-- Market  
-- Objective  
-- KPI mode (budget or KPI driven)  
-- Budget or target KPI  
-- Audience  
-- Constraints  
-- Notes  
-
-Ensures consistent interpretation of all briefs.
-
-#### `country_tier.csv`
-Defines tier classifications for markets (e.g., Tier 1, Tier 2, Tier 3), which Claude may use for:
-- Benchmark adjustments  
-- Cost assumptions  
-- Budget weighting logic  
-
-#### `tactic_library.csv`
-Master list of allowed tactics Claude may recommend.  
-Includes:
-- Funnel stage  
-- Channel  
-- Platform  
-- Ad type  
-- Objective  
-- Human-readable label  
-- Description  
-- Default budget weight  
-
-Prevents hallucinated channels or invalid tactics.
+├── ads-production-template/    # Ad specifications templates
+├── prompts/                    # Workflow prompts
+├── sample-proposals/           # Reference outputs
+└── README.md
+```
 
 ---
 
-### `/skills/`
+## Key Files
 
-Contains Claude’s core persona and strategic framework.
+### `/skills/paid-media-strategist-construct.md`
+**The core Skill file** that defines:
+- Workflow orchestration logic (Strategy → Media Plan → Estimator)
+- Command interface ("Generate strategy", "Generate media plan", "Generate estimator")
+- Revision behaviors (cascading vs non-cascading)
+- Output format specifications
+- Execution sequencing rules
+- Schema integration points
 
-#### `paid-media-strategist-construct.md`
-Defines how Claude should think as a senior Construct Digital Paid Media Strategist.
+This is what Claude loads to become a Paid Media Strategist.
 
-Includes:
-- Lead generation philosophy  
-- Funnel design principles  
-- Channel roles  
-- Tactical mapping rules  
-- How to use benchmark data  
-- How to reason about budgets and KPIs  
-- Required structure of outputs  
+### `/skills/SKILL_USAGE_GUIDE.md`
+Comprehensive documentation covering:
+- All workflow triggers and commands
+- Input requirements for each workflow
+- Output formats and examples
+- Dependency rules
+- Revision behaviors
+- File structure and dependencies
 
-Ensures all strategies match the Construct Digital methodology.
+### `/schema/ratecard.csv`
+**Construct Digital's pricing database** with:
+- 3,100+ lines of detailed resource allocation
+- Cost rates and sell rates by role (Strategist, Creative, Developer, etc.)
+- Deliverable pricing (Essential vs Custom campaigns)
+- Resource effort breakdowns
+- Internal cost/sell calculations
+
+Used by Workflow 3 (Estimator) for quotation generation.
+
+### `/schema/tactic_library.csv`
+**Master tactics reference** containing:
+- Funnel stage mappings
+- Channel and platform combinations
+- Ad types and objectives
+- Default budget weights
+- Tactic descriptions
+
+Prevents hallucinated tactics — all recommendations must exist in this library.
+
+### `/schema/benchmark.csv`
+**Performance benchmarks** across:
+- Channels (Meta, Google, LinkedIn, etc.)
+- Objectives (Leads, Traffic, Conversions)
+- Funnel stages (Prospecting, Retargeting, Nurturing)
+- Markets and tiers
+- Performance levels (Low / Avg / High)
+
+Used by Workflow 2 (Media Plan) for projections.
+
+### `/schema/brief.txt`
+Schema defining required brief inputs:
+- Market and audience
+- Objective and KPI mode
+- Budget or target KPI
+- Constraints and notes
+
+Ensures consistent brief interpretation.
+
+### `/schema/country_tier.csv`
+Market tier classifications (Tier 1/2/3) used for:
+- Benchmark adjustments
+- Cost assumptions
+- Budget weighting logic
+
+### `/ads-production-template/`
+Contains platform-specific ad specification templates:
+- Meta (Facebook/Instagram)
+- Google (Search, Display, YouTube)
+- LinkedIn
+- TikTok
+
+Used to generate ad production specs after Media Plan is finalized.
 
 ---
 
-## How Claude Uses This Repository
+## How It Works
 
-Claude will:
+### 1. Session-Based Context
+Workflows operate within a conversation session. Claude maintains context across multiple workflow executions, allowing:
+- Sequential dependencies (Strategy feeds into Media Plan)
+- Cascading revisions (updating Strategy recalculates Media Plan)
+- Reference to prior outputs
 
-1. Load the **paid-media-strategist-construct.md** skill  
-2. Read files in `/schema/`:
-   - `brief.csv`  
-   - `tactic_library.csv`  
-   - `benchmark.csv`  
-   - `country_tier.csv`
-3. Generate:
-   - Campaign strategy  
-   - Funnel structure  
-   - Channel mix  
-   - Tactic plan  
-   - Media plan with numbers  
+### 2. Explicit Commands
+Users trigger workflows with explicit commands:
+- `"Generate strategy"`
+- `"Generate media plan"` / `"Media plan only"`
+- `"Generate estimator"` / `"Generate quotation"`
 
-This ensures outputs are grounded in real data and agency standards.
+### 3. Cascading Revisions
+Workflow updates cascade forward, not backward:
+- **Revise strategy** → Recalculates Media Plan + Estimator
+- **Revise media plan** → Recalculates Estimator only
+- **Revise estimator** → No cascade (standalone)
+
+### 4. Data-Grounded Outputs
+All outputs are grounded in repository data:
+- Tactics must exist in `tactic_library.csv`
+- Benchmarks pulled from `benchmark.csv`
+- Pricing from `ratecard.csv`
+- No hallucinated channels, metrics, or pricing
 
 ---
 
-## Purpose of This Repository
+## Usage
 
-This repo provides a stable, non-changing source of truth for Claude.
+### Quick Start
+1. Load the Skill: `/skills/paid-media-strategist-construct.md`
+2. Provide campaign brief
+3. Run workflows in sequence:
+   - `"Generate strategy"`
+   - `"Generate media plan"`
+   - `"Generate estimator"`
 
-It is designed to standardize:
-- How Claude reads input data  
-- How Claude selects tactics  
-- How Claude calculates media plans  
+### Revision Workflow
+- `"Revise the strategy"` → Full recalculation
+- `"Revise the media plan"` → Partial recalculation
+- `"Revise the estimator"` → Standalone update
 
-This repo **does not** contain:
-- Prompts  
-- n8n workflows  
-- Deck templates  
-- JSON transformation scripts  
+### Documentation
+See `/skills/SKILL_USAGE_GUIDE.md` for:
+- Complete command reference
+- Workflow examples
+- Dependency rules
+- Output format specifications
 
-Those are maintained separately.
+---
+
+## Design Philosophy
+
+This repository embodies Construct Digital's approach to campaign automation:
+
+### 1. **Deterministic Over Creative**
+Workflows follow strict logic, not subjective interpretation. Tactics, benchmarks, and pricing are predefined — Claude orchestrates, not invents.
+
+### 2. **Minimal Hallucination**
+Every recommendation must have a source:
+- Tactics from `tactic_library.csv`
+- Benchmarks from `benchmark.csv`
+- Pricing from `ratecard.csv`
+
+If data doesn't exist, Claude asks rather than guesses.
+
+### 3. **Workflow Orchestration**
+Not a chatbot — a workflow automation system. Clear inputs, deterministic processing, structured outputs.
+
+### 4. **Agency Standards**
+Outputs match Construct Digital's:
+- Lead generation philosophy
+- 3-stage funnel model
+- Channel role definitions
+- Budget allocation principles
+- Pricing structure
+
+### 5. **Maintainable Truth**
+Repository data is the single source of truth. Update tactics, benchmarks, or pricing here — workflows adapt automatically.
+
+---
+
+## Maintenance
+
+### Adding New Tactics
+Edit `/schema/tactic_library.csv`:
+- Define funnel stage, channel, platform, objective
+- Set default budget weight
+- Add description
+
+### Updating Benchmarks
+Edit `/schema/benchmark.csv`:
+- Add rows for new channel/objective/market combinations
+- Set CTR, CPC, CR, CPM values
+- Define performance tier (Low/Avg/High)
+
+### Updating Pricing
+Edit `/schema/ratecard.csv`:
+- Update resource cost/sell rates
+- Modify deliverable pricing
+- Adjust effort allocations
+
+### Modifying Workflows
+Edit `/skills/paid-media-strategist-construct.md`:
+- Update workflow logic in respective sections
+- Modify command interface if needed
+- Update revision behaviors
+- Maintain execution sequencing rules
+
+**Note:** After modifying the Skill, update `/skills/SKILL_USAGE_GUIDE.md` accordingly.
+
+---
+
+## What This Repository Is NOT
+
+- ❌ A passive knowledge base (it's an active automation system)
+- ❌ A prompt library (it's a structured Skill with workflows)
+- ❌ A template repository (it's executable logic)
+- ❌ A documentation site (it's operational code)
+
+This is a **production automation system** that Claude executes to deliver campaign strategies, media plans, and quotations.
+
+---
+
+## Related Resources
+
+- **Skill File:** `/skills/paid-media-strategist-construct.md`
+- **Usage Guide:** `/skills/SKILL_USAGE_GUIDE.md`
+- **Tactic Library:** `/schema/tactic_library.csv`
+- **Benchmarks:** `/schema/benchmark.csv`
+- **Pricing:** `/schema/ratecard.csv`
+
+---
+
+## Version
+
+**Current Workflows:** 3 (Strategy, Media Plan, Estimator)
+**Last Updated:** December 2024
+**Maintained By:** Construct Digital
