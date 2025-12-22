@@ -122,4 +122,200 @@ Phase 4 – Usage Guide
     - “Generate only media plan”
     - “Generate ads specs only”
 
+----------------------------------------------------------------------------------
+NEXT TASK: Add an Estimator workflow into the existing paid-media skill.
+
+Important:
+
+Do NOT modify or overwrite any part of the current strategist identity, strategy workflow, media plan workflow, or ads production workflow.
+Extend the existing skill by integrating a new “Estimator Workflow”.
+Assume all previous context from this chat remains active.
+DATA SOURCE (NEW)
+The estimator uses a new pricing file:
+
+/schema/ratecard.csv
+
+This contains the authoritative unit cost for every deliverable.
+Do NOT create or guess any pricing.
+If a pricing row cannot be matched → ask the user which item to use.
+
+Before modifying the skill:
+
+Verify that /schema/ratecard.csv exists.
+If missing, notify me and propose a minimal expected structure (e.g., item_name, item_code, unit_cost, unit_type).
+ESTIMATOR WORKFLOW — REQUIREMENTS
+You must add a new workflow (“Workflow 3 — Estimator”) to the skill.
+It will generate a complete campaign quotation AFTER the Strategy → Media Plan → Ads Specs are produced.
+
+This workflow must:
+
+=========================================
+
+CLASSIFY CAMPAIGN (ESSENTIAL vs CUSTOM)
+=========================================
+Before any calculation:
+
+Analyse the Strategy + Media Plan + Ads Specs to infer a recommended classification:
+
+Essential
+Custom
+ALWAYS ask the user to confirm:
+
+“Based on the campaign scope, I recommend classifying this campaign as Essential/Custom. Would you like to keep this classification or change it?”
+
+Wait for user confirmation.
+
+Use the final choice.
+
+Display this classification at the top of the estimator output.
+
+Classification heuristics:
+
+Essential:
+• Single programme
+• Standard 3-stage funnel
+• < 10 total assets
+• No LP / no downloadable creation
+• One segment
+• Limited platforms
+Custom:
+• Multiple programmes or funnels
+• ≥ 10 assets
+• Landing page or downloadable asset required
+• Complex nurturing
+• Multi-market or localisation needed
+=========================================
+2) IDENTIFY REQUIRED ITEMS
+Estimator must include three categories:
+
+A. FIXED ITEMS (fixed cost, units = 1)
+
+Strategy & Planning
+Campaign Setup
+B. FIXED ITEMS, VARIABLE UNITS
+
+Campaign Management
+• Unit cost from ratecard.csv
+• Units = campaign duration in months (from brief; if unclear, ask user)
+Ad Assets
+• Unit cost per asset from ratecard.csv
+• Units = number of assets from Ads Specs; if Ads Specs are not generated, infer from Campaign Flow and note that it is an approximation
+Emails
+• Unit cost per email from ratecard.csv
+• Units = number of nurture emails determined by the strategy/ads specs
+C. OPTIONAL ITEMS (include only if user confirms)
+
+Landing Page
+Downloadable Resource / PDF
+Extra creative variants
+Additional nurture flows
+Any item listed in ratecard.csv that is not mandatory
+Behaviour:
+
+Infer which optional items might be relevant.
+Ask the user for confirmation BEFORE inserting into the estimator.
+=========================================
+3) PRICING LOOKUP LOGIC
+For each item in the estimator:
+
+Find its corresponding row in /schema/ratecard.csv by exact or close match of item_name/item_code.
+Unit Cost = value from ratecard.csv
+Units = derived value
+Total = Unit Cost × Units
+If no match → ask user which row to use.
+
+=========================================
+4) MEDIA BUDGET INTEGRATION
+Pull the total media spend from the Media Plan output and include it as its own line:
+
+“Media Budget – Ad platforms budget (third-party cost)”
+Investment = value from Media Plan
+
+=========================================
+5) OUTPUT FORMAT (STRICT)
+The estimator output must be a quotation table with 3 columns:
+
+Item | Description | Investment
+
+It must follow this structure:
+
+Planning
+Description: “Campaign Strategy & Plan x1 – Channels rationale, media tactics, campaign flow, media plan”
+Investment: $X
+
+Setup
+Description: “Campaign Setup x1 – Account setup, ad setup, tagging implementation”
+Investment: $X
+
+Management
+Description: “Monthly Campaign Management & Reporting x[N] – Daily monitoring & weekly optimisations & email updates”
+Investment: $X
+
+Campaign Assets
+• Prospecting Assets (list key ad types + counts)
+• Retargeting Assets (same)
+• Nurturing Assets (same)
+• Optional Assets (if approved)
+Investment: total for all assets
+
+Media Budget
+Description: “Ad platforms budget (third-party cost)”
+Investment: [value from Media Plan]
+
+TOTAL
+Description: “TOTAL”
+Investment: grand total
+
+Rules:
+
+Google Sheet–ready
+No paragraphs or commentary
+Currency formatting consistent with the brief (SGD X,XXX)
+=========================================
+6) COMMAND INTERFACE ADDITIONS
+Add the following triggers:
+
+“Generate estimator”
+“Generate quotation”
+“Estimator only”
+Define behaviour:
+
+If Strategy or Media Plan missing → ask user to run those workflows.
+If Ads Specs missing → infer asset counts and notify the user that counts are approximated.
+=========================================
+7) REVISION LOGIC
+Add new revision behaviour:
+
+Command: “Revise estimator”
+Action: Re-run ONLY the Estimator workflow, using:
+
+The latest Strategy
+The latest Media Plan
+The latest Ads Specs (if present)
+Updated classification
+Updated optional item inclusions
+Updated campaign duration (if changed)
+=========================================
+FINAL TASK FOR YOU (CLAUDE CODE)
+Modify the existing skill file /skills/paid-media-strategist-construct.md by:
+
+Adding a new section called “Workflow 3 — Estimator”.
+
+Documenting:
+
+Required inputs
+Item categorisation logic
+Essential vs Custom confirmation behaviour
+Pricing lookup rules
+Calculation rules
+Output format requirements
+Supported commands
+Revision behaviour
+Extending the Command Interface and Revision Behaviours sections to include estimator-related commands.
+
+Returning the updated FULL content of the skill file.
+
+Do not delete, rewrite, or alter any existing workflows.
+Only extend them cleanly with this new Estimator workflow
+
 Now start with Phase 1: inspect the repo and both prompt files, summarise what you find, and propose a Skill.md structure before writing any YAML.
