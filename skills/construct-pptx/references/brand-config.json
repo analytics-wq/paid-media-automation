@@ -1,0 +1,97 @@
+{
+  "name": "Construct Digital",
+  "version": "1.1",
+  "lastUpdated": "2025-12-12",
+
+  "colors": {
+    "primary": {
+      "blue": "#1E5AA8",
+      "red": "#CC0000",
+      "green": "#00852B",
+      "yellow": "#FAC80A",
+      "purple": "#901F76",
+      "black": "#000000",
+      "white": "#FFFFFF"
+    },
+    "semantic": {
+      "cta": "#1E5AA8",
+      "positive": "#00852B",
+      "negative": "#CC0000",
+      "warning": "#FAC80A",
+      "accent": "#901F76"
+    },
+    "text": {
+      "dark": "#000000",
+      "light": "#FFFFFF",
+      "muted": "#434343"
+    },
+    "background": {
+      "default": "#FFFFFF",
+      "alt": "#F2F2F2",
+      "dark": "#000000"
+    }
+  },
+
+  "designPhilosophy": "Inspired by tech giants - vibrant, playful, noticeable brightness. RGB colors reflect identity as a digital marketing agency.",
+
+  "fonts": {
+    "heading": "Arial",
+    "body": "Arial",
+    "style": "Bold, sans-serif, high legibility"
+  },
+
+  "spacing": {
+    "headerPadding": "12pt 40pt",
+    "contentPadding": "20pt 40pt 40pt 40pt",
+    "sectionGap": "20pt",
+    "borderRadius": "8px"
+  },
+
+  "slideDefaults": {
+    "aspectRatio": "16:9",
+    "width": "720pt",
+    "height": "405pt"
+  },
+
+  "logo": {
+    "forDarkBackground": "logos/CD-Logo-Light.png",
+    "forLightBackground": "logos/CD-Logo-Dark.png",
+    "tagline": "IMPACT Framework for B2B Marketing",
+    "variants": {
+      "horizontal": "logos/CD Logos for Digital (RGB)/2-Horizontal RGB/",
+      "vertical": "logos/CD Logos for Digital (RGB)/3-Vertical RGB/",
+      "brandmark": "logos/CD Logos for Digital (RGB)/1-Brandmark Only RGB/"
+    },
+    "_note": "Do not use logo version with same background color as slide."
+  },
+
+  "sectionDividers": {
+    "_note": "Section dividers rotate through brand colors for visual variety",
+    "colorRotation": ["#1E5AA8", "#CC0000", "#00852B", "#901F76", "#FAC80A"],
+    "colorNames": ["blue", "red", "green", "purple", "yellow"],
+    "textOnColor": "#FFFFFF",
+    "textOnYellow": "#000000",
+    "hasLogo": true,
+    "hasIconography": true
+  },
+
+  "contrastRules": {
+    "lightBackground": "Use black (#000000) or darker brand colors",
+    "darkBackground": "Use white (#FFFFFF)",
+    "minimumRatio": "4.5:1"
+  },
+
+  "themeColorsFromPPTX": {
+    "_note": "Extracted from sample PPTX theme1.xml - may differ from official brand",
+    "dk1": "#000000",
+    "lt1": "#FFFFFF",
+    "dk2": "#158158",
+    "lt2": "#F3F3F3",
+    "accent1": "#058DC7",
+    "accent2": "#50B432",
+    "accent3": "#ED561B",
+    "accent4": "#EDEF00",
+    "accent5": "#24CBE5",
+    "accent6": "#64E572"
+  }
+}
