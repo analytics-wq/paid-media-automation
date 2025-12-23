@@ -1,0 +1,5918 @@
+{
+  "slide-0": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.93,
+      "width": 4.99,
+      "height": 1.13,
+      "placeholder_type": "TITLE",
+      "default_font_size": 42.0,
+      "paragraphs": [
+        {
+          "text": "This is Your Presentation Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 4.08,
+      "width": 4.99,
+      "height": 0.41,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the presentation subtitle",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 5.11,
+      "width": 5.01,
+      "height": 0.23,
+      "placeholder_type": "BODY",
+      "default_font_size": 10.0,
+      "paragraphs": [
+        {
+          "text": "AUTHOR AND DATE",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.93,
+      "width": 4.99,
+      "height": 1.13,
+      "placeholder_type": "TITLE",
+      "default_font_size": 42.0,
+      "paragraphs": [
+        {
+          "text": "This is Your Presentation Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 4.08,
+      "width": 4.99,
+      "height": 0.41,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the presentation subtitle",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 5.11,
+      "width": 5.01,
+      "height": 0.23,
+      "placeholder_type": "BODY",
+      "default_font_size": 10.0,
+      "paragraphs": [
+        {
+          "text": "AUTHOR AND DATE",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-3": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.93,
+      "width": 4.99,
+      "height": 1.13,
+      "placeholder_type": "TITLE",
+      "default_font_size": 42.0,
+      "paragraphs": [
+        {
+          "text": "This is Your Presentation Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 4.08,
+      "width": 4.99,
+      "height": 0.41,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the presentation subtitle",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 5.11,
+      "width": 5.01,
+      "height": 0.23,
+      "placeholder_type": "BODY",
+      "default_font_size": 10.0,
+      "paragraphs": [
+        {
+          "text": "AUTHOR AND DATE",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-4": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.93,
+      "width": 4.7,
+      "height": 1.13,
+      "placeholder_type": "TITLE",
+      "default_font_size": 42.0,
+      "paragraphs": [
+        {
+          "text": "This is Your Presentation Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 4.08,
+      "width": 4.99,
+      "height": 0.41,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the presentation subtitle",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 5.11,
+      "width": 5.01,
+      "height": 0.23,
+      "placeholder_type": "BODY",
+      "default_font_size": 10.0,
+      "paragraphs": [
+        {
+          "text": "AUTHOR AND DATE",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-5": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.93,
+      "width": 4.67,
+      "height": 1.13,
+      "placeholder_type": "TITLE",
+      "default_font_size": 42.0,
+      "paragraphs": [
+        {
+          "text": "This is Your Presentation Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 4.08,
+      "width": 4.67,
+      "height": 0.41,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the presentation subtitle",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 5.11,
+      "width": 5.01,
+      "height": 0.23,
+      "placeholder_type": "BODY",
+      "default_font_size": 10.0,
+      "paragraphs": [
+        {
+          "text": "AUTHOR AND DATE",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-6": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.93,
+      "width": 4.73,
+      "height": 1.13,
+      "placeholder_type": "TITLE",
+      "default_font_size": 42.0,
+      "paragraphs": [
+        {
+          "text": "This is Your Presentation Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 4.08,
+      "width": 4.73,
+      "height": 0.41,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the presentation subtitle",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 5.11,
+      "width": 5.01,
+      "height": 0.23,
+      "placeholder_type": "BODY",
+      "default_font_size": 10.0,
+      "paragraphs": [
+        {
+          "text": "AUTHOR AND DATE",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-7": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.48,
+      "width": 6.95,
+      "height": 0.48,
+      "placeholder_type": "TITLE",
+      "default_font_size": 36.0,
+      "paragraphs": [
+        {
+          "text": "This is the Section Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 3.01,
+      "width": 6.95,
+      "height": 0.32,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the section subtitle",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-8": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.48,
+      "width": 6.95,
+      "height": 0.48,
+      "placeholder_type": "TITLE",
+      "default_font_size": 36.0,
+      "paragraphs": [
+        {
+          "text": "This is the Section Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 3.01,
+      "width": 6.95,
+      "height": 0.32,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the section subtitle",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-9": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.48,
+      "width": 6.95,
+      "height": 0.48,
+      "placeholder_type": "TITLE",
+      "default_font_size": 36.0,
+      "paragraphs": [
+        {
+          "text": "This is the Section Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 3.01,
+      "width": 6.95,
+      "height": 0.32,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the section subtitle",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-10": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.48,
+      "width": 6.95,
+      "height": 0.48,
+      "placeholder_type": "TITLE",
+      "default_font_size": 36.0,
+      "paragraphs": [
+        {
+          "text": "This is the Section Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 3.01,
+      "width": 6.95,
+      "height": 0.32,
+      "placeholder_type": "SUBTITLE",
+      "default_font_size": 24.0,
+      "paragraphs": [
+        {
+          "text": "This is the section subtitle",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-11": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 2.32,
+      "width": 4.65,
+      "height": 0.84,
+      "placeholder_type": "BODY",
+      "default_font_size": 56.0,
+      "paragraphs": [
+        {
+          "text": "Big Concept",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 3.53,
+      "width": 5.44,
+      "height": 0.84,
+      "placeholder_type": "BODY",
+      "default_font_size": 56.0,
+      "paragraphs": [
+        {
+          "text": "Bring the attention of your audience over a key concept using photos or illustrations",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-12": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.81,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "This is a Slide Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.33,
+      "top": 1.7,
+      "width": 8.73,
+      "height": 2.08,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis  nostrud exerci tation ullamcorper suscipit  lobortis nisl ut aliquip ex ea commodo  consequat. Duis autem vel eum iriure  dolor in hendrerit in vulputate velit esse molestie con. \u000b\u000bLorem ipsum dolor sit amet, consectetuer  adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+          "line_spacing": 13.8
+        }
+      ]
+    }
+  },
+  "slide-13": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 8.29,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "This is a Slide Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.33,
+      "top": 1.7,
+      "width": 8.73,
+      "height": 2.08,
+      "placeholder_type": "BODY",
+      "default_font_size": 14.0,
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis  nostrud exerci tation ullamcorper suscipit  lobortis nisl ut aliquip ex ea commodo  consequat. Duis autem vel eum iriure  dolor in hendrerit in vulputate velit esse molestie con. \u000b\u000bLorem ipsum dolor sit amet, consectetuer  adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+          "line_spacing": 13.8
+        }
+      ]
+    }
+  },
+  "slide-14": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.91,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "This is a Slide Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.35,
+      "top": 1.42,
+      "width": 4.15,
+      "height": 0.28,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "Column 1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.35,
+      "top": 1.8,
+      "width": 4.15,
+      "height": 2.75,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. \u000b\u000bUt wisi enim ad minim veniam, quis  nostrud exerci tation ullamcorper suscipit  lobortis nisl ut aliquip ex ea commodo  consequat. Duis autem vel eum iriure  dolor in hendrerit in vulputate velit esse molestie con. \u000b\u000bLorem ipsum dolor sit amet, consectetuer  adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 4.96,
+      "top": 1.42,
+      "width": 4.15,
+      "height": 0.28,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "Column 2",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.96,
+      "top": 1.79,
+      "width": 4.15,
+      "height": 2.75,
+      "placeholder_type": "BODY",
+      "default_font_size": 16.0,
+      "paragraphs": [
+        {
+          "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. \u000b\u000bUt wisi enim ad minim veniam, quis  nostrud exerci tation ullamcorper suscipit  lobortis nisl ut aliquip ex ea commodo  consequat. Duis autem vel eum iriure  dolor in hendrerit in vulputate velit esse molestie con. \u000b\u000bLorem ipsum dolor sit amet, consectetuer  adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-15": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.87,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "This is a Slide Title",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 1.72,
+      "width": 7.77,
+      "height": 1.11,
+      "paragraphs": [
+        {
+          "text": "Here you have a list of items",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 18.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 18.0
+        },
+        {
+          "text": "And some text",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 18.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 18.0
+        },
+        {
+          "text": "But remember not to overload each slide with too much content",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 18.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 18.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 3.57,
+      "width": 7.46,
+      "height": 0.68,
+      "paragraphs": [
+        {
+          "text": "Your audience will listen to you or read the content,  but won’t do both.",
+          "space_before": 35.0,
+          "font_name": "Proxima Nova",
+          "font_size": 20.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 20.14
+        }
+      ]
+    }
+  },
+  "slide-16": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.81,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "This is a Slide Title",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-17": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.84,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "This is a Slide Title",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-18": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.83,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "This is a Slide Title",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-19": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.33,
+      "width": 4.6,
+      "height": 0.75,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "A picture is worth a thousand words",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-20": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.33,
+      "width": 4.6,
+      "height": 0.75,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "A picture is worth a thousand words",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-21": {
+    "shape-0": {
+      "left": 5.0,
+      "top": 0.87,
+      "width": 4.6,
+      "height": 0.75,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "A picture always reinforces the concept",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-22": {
+    "shape-0": {
+      "left": 0.63,
+      "top": 3.77,
+      "width": 8.73,
+      "height": 0.74,
+      "placeholder_type": "BODY",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Want big impact? Use a big image.",
+          "alignment": "CENTER",
+          "line_spacing": 18.0
+        }
+      ]
+    }
+  },
+  "slide-23": {
+    "shape-0": {
+      "left": 0.55,
+      "top": 1.9,
+      "width": 8.91,
+      "height": 1.87,
+      "placeholder_type": "BODY",
+      "default_font_size": 34.0,
+      "paragraphs": [
+        {
+          "text": "“Quotations are commonly printed as a  means of inspiration and to invoke  philosophical thoughts from the reader.”",
+          "alignment": "CENTER",
+          "theme_color": "DARK_1",
+          "line_spacing": 12.03
+        }
+      ]
+    }
+  },
+  "slide-24": {
+    "shape-0": {
+      "left": 0.5,
+      "top": 1.87,
+      "width": 6.05,
+      "height": 1.25,
+      "placeholder_type": "TITLE",
+      "default_font_size": 74.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.73
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "$12,562,124",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.37,
+      "top": 3.0,
+      "width": 6.18,
+      "height": 0.4,
+      "placeholder_type": "BODY",
+      "default_font_size": 20.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-0": 0.73
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Whoa! That’s a big number, aren’t you proud?",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-25": {
+    "shape-0": {
+      "left": 0.31,
+      "top": -0.23,
+      "width": 2.91,
+      "height": 4.03,
+      "placeholder_type": "BODY",
+      "default_font_size": 300.0,
+      "paragraphs": [
+        {
+          "text": "4",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 4.63,
+      "top": 0.62,
+      "width": 3.24,
+      "height": 0.64,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.08
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "CONCERTED ACTIONS",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "Focused actions & efforts – even across multiple channels – will create wonders",
+          "space_before": 5.0,
+          "space_after": 5.0,
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.63,
+      "top": 1.63,
+      "width": 3.24,
+      "height": 0.83,
+      "paragraphs": [
+        {
+          "text": "ECOSYSTEMS, NOT JUST CAMPAIGNS",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "One isn’t enough. An always-on, ever-present ecosystem of content, tactics, campaigns & ads maximises reach and conversion",
+          "space_before": 5.0,
+          "space_after": 5.0,
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 4.63,
+      "top": 2.83,
+      "width": 3.24,
+      "height": 0.83,
+      "paragraphs": [
+        {
+          "text": "QUALITY LEADS ONLY",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "Your bottom line is our bottom line. We want \u000bto help you close faster. That’s why quality leads only.",
+          "space_before": 5.0,
+          "space_after": 5.0,
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.5,
+      "top": 4.02,
+      "width": 3.09,
+      "height": 0.59,
+      "placeholder_type": "TITLE",
+      "default_font_size": 44.0,
+      "paragraphs": [
+        {
+          "text": "Principles",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 4.63,
+      "top": 4.03,
+      "width": 3.24,
+      "height": 1.03,
+      "paragraphs": [
+        {
+          "text": "GETTING IN FRONT OF YOUR CUSTOMERS",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "If your customers can’t see it, you can’t convert them. We get it in front of your customers through ads, ABM, content rabbit holes",
+          "space_before": 5.0,
+          "space_after": 5.0,
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.0
+        }
+      ]
+    }
+  },
+  "slide-26": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Capabilities",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.74,
+      "top": 4.1,
+      "width": 2.64,
+      "height": 0.28,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Digital Strategy & Execution",
+          "alignment": "CENTER",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.68,
+      "top": 4.1,
+      "width": 2.64,
+      "height": 0.28,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Technology",
+          "alignment": "CENTER",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.61,
+      "top": 4.1,
+      "width": 2.64,
+      "height": 0.28,
+      "placeholder_type": "BODY",
+      "default_font_size": 12.0,
+      "paragraphs": [
+        {
+          "text": "Marketing",
+          "alignment": "CENTER",
+          "line_spacing": 12.0
+        }
+      ]
+    }
+  },
+  "slide-27": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Channels Rationale",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 5.08,
+      "top": 1.33,
+      "width": 3.03,
+      "height": 1.21,
+      "paragraphs": [
+        {
+          "text": "We think the best approach for <BRAND> is via Google (GSN + GDN) coupled with Facebook Business Manager (FB + IN) for retargeting. This mix, in our opinion, will result in positive Return On Ad Spend (ROAS).",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 5.08,
+      "top": 2.76,
+      "width": 3.69,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "Why a multichannel strategy?",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Reduce risk",
+          "bullet": true,
+          "level": 0,
+          "space_before": 4.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Reduce budget (decrease CPC)",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Not all the audiences can be found on the same platform",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Achieve data to make decisions",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.08,
+      "top": 3.83,
+      "width": 3.69,
+      "height": 1.07,
+      "paragraphs": [
+        {
+          "text": "What channels should we look at?",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "High reach in target country (Singapore)",
+          "bullet": true,
+          "level": 0,
+          "space_before": 4.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Best targeting options for our audiences (Parents)",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Best performing channels (cost-efficient)",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Best tactical combination",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        }
+      ]
+    }
+  },
+  "slide-28": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.81,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Conversion Funnel",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.5,
+      "top": 1.14,
+      "width": 1.95,
+      "height": 1.32,
+      "paragraphs": [
+        {
+          "text": "Recommended Full Funnel Approach",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "Efficient reach via cross-platform blast towards addressable target audience + leads capture across all lead gen formats",
+          "space_before": 5.0,
+          "space_after": 5.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 3.53,
+      "top": 1.8,
+      "width": 2.94,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Awareness",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 7.29,
+      "top": 2.0,
+      "width": 2.12,
+      "height": 0.64,
+      "paragraphs": [
+        {
+          "text": "STAGE 1",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "1E5AA8",
+          "line_spacing": 10.8
+        },
+        {
+          "text": "Traffic and MQLs",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "1E5AA8",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "(Download Brochure)",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Tactics: Prospecting",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.7,
+      "top": 2.85,
+      "width": 2.22,
+      "height": 0.66,
+      "paragraphs": [
+        {
+          "text": "STAGE 2",
+          "alignment": "RIGHT",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "00852B",
+          "line_spacing": 10.8
+        },
+        {
+          "text": "Traffic and SQLs",
+          "alignment": "RIGHT",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "00852B",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "(Download Brochure)",
+          "alignment": "RIGHT",
+          "space_before": 1.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Tactics: Retargeting",
+          "alignment": "RIGHT",
+          "space_before": 1.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 3.53,
+      "top": 2.75,
+      "width": 2.94,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Consideration",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 4.14,
+      "top": 3.7,
+      "width": 1.73,
+      "height": 0.27,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Decision",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "FFFFFF",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 7.29,
+      "top": 3.82,
+      "width": 2.12,
+      "height": 0.64,
+      "paragraphs": [
+        {
+          "text": "STAGE 3",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "901F76",
+          "line_spacing": 10.8
+        },
+        {
+          "text": "SQLs",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "901F76",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "(1 on 1 / Apply Now)",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Tactics: Nurturing to Warm Leads",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": true,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-29": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Campaign Flow",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 1.05,
+      "top": 1.06,
+      "width": 1.84,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "AWARENESS",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.08,
+      "top": 1.06,
+      "width": 1.84,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "CONSIDERATION",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 7.11,
+      "top": 1.06,
+      "width": 1.84,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "DECISION",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 4.21,
+      "top": 2.23,
+      "width": 1.57,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Landing Page",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.86,
+      "top": 2.91,
+      "width": 1.57,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "CTA: Learn More",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 1.7,
+      "top": 3.88,
+      "width": 1.57,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Google Search Ads",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.21,
+      "top": 4.1,
+      "width": 1.57,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Facebook Lead Gen Ads",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 1.7,
+      "top": 4.67,
+      "width": 1.57,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "Facebook Search Ads",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 4.1,
+      "top": 4.79,
+      "width": 1.8,
+      "height": 0.37,
+      "paragraphs": [
+        {
+          "text": "CTA: Apply Now",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_3",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 4.21,
+      "top": 4.5,
+      "width": 1.57,
+      "height": 0.25,
+      "paragraphs": [
+        {
+          "text": "LinkedIn Lead Gen Ads",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 1.7,
+      "top": 5.46,
+      "width": 1.57,
+      "height": 0.25,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "LinkedIn Search Ads",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 5.49,
+      "top": 6.15,
+      "width": 0.91,
+      "height": 0.24,
+      "overflow": {
+        "slide": {
+          "overflow_bottom": 0.76
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Drop-Off",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_2",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 12.69,
+      "top": 6.15,
+      "width": 0.91,
+      "height": 0.24,
+      "overflow": {
+        "slide": {
+          "overflow_right": 3.6,
+          "overflow_bottom": 0.76
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Application",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 8.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_2",
+          "line_spacing": 8.0
+        }
+      ]
+    }
+  },
+  "slide-30": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Content Architecture",
+          "line_spacing": 9.6
+        }
+      ]
+    }
+  },
+  "slide-31": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Consumer Landscape/Persona",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 4.01,
+      "top": 0.87,
+      "width": 2.85,
+      "height": 4.48,
+      "paragraphs": [
+        {
+          "text": "About",
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.65
+        },
+        {
+          "text": "Joseph is medical student in pursuit of furthering his education in the area of infectious diseases. Amidst the Covid19 pandemic, Joseph wants to expand his knowledge knowledge broader in medicine to discover more than just what affects the human body.",
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Pain Point",
+          "space_before": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 12.27
+        },
+        {
+          "text": "Research facilities that can enhance the field of research",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Finding a good mentor",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Having a support system",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Financial stability to focus on studies and academics",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Personal development while studying",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Work-life balance",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Area of Interest",
+          "space_before": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 12.27
+        },
+        {
+          "text": "Infectious Diseases",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Goals",
+          "space_before": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 12.27
+        },
+        {
+          "text": "Secure high paying job",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Giving back to the community",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Academic Identity",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Professional autonomy",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 7.19,
+      "top": 0.87,
+      "width": 2.3,
+      "height": 2.24,
+      "paragraphs": [
+        {
+          "text": "Source of Information",
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 12.27
+        },
+        {
+          "text": "Friends / Family",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Professors",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Senior Students",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "https://www.findaphd.com/",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": true,
+          "theme_color": "HYPERLINK",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "https://www.phdportal.com/",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": true,
+          "theme_color": "HYPERLINK",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Top Concerns",
+          "space_before": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 12.27
+        },
+        {
+          "text": "Work-life balance",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Financial concerns",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Employment",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Social Isolation",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        },
+        {
+          "text": "Working condition",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.35
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.96,
+      "top": 1.97,
+      "width": 1.5,
+      "height": 0.54,
+      "paragraphs": [
+        {
+          "text": "Student",
+          "font_name": "Proxima Nova",
+          "font_size": 20.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 16.0
+        },
+        {
+          "text": "Joseph",
+          "font_name": "Proxima Nova",
+          "font_size": 20.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 16.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 1.96,
+      "top": 2.65,
+      "width": 1.5,
+      "height": 1.38,
+      "paragraphs": [
+        {
+          "text": "Age: 29",
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "Occupation: Medical Student",
+          "space_before": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        },
+        {
+          "text": "Highest Qualification:\u000bBachelors",
+          "space_before": 6.0,
+          "space_after": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.49,
+      "top": 4.32,
+      "width": 2.8,
+      "height": 0.47,
+      "paragraphs": [
+        {
+          "text": "“I need to secure good quality of medical education”",
+          "space_before": 5.0,
+          "space_after": 5.0,
+          "font_name": "Proxima Nova",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": true,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 14.0
+        }
+      ]
+    }
+  },
+  "slide-32": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.67
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Key Insights",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 5.58,
+      "top": 0.47,
+      "width": 3.44,
+      "height": 4.69,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-0": 0.67
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Professional",
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.67
+        },
+        {
+          "text": "Good Supervisor/Mentors: good supervisors are \u000bmajor role in academic success",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_4",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Collaboration: Learning Communities: Democratic and meaningful exchange of ideas is valued, as is sincere and frequent feedback as well as meaningful social support",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_4",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Professional Autonomy: Students want autonomy for \u000btheir research with good supervision",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_4",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Working Culture: A wide array of dynamics to provide \u000ba holistic learning environment",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Career Development opportunities: looking for \u000bhigh pay and good career development",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_4",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Personal",
+          "space_before": 8.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.67
+        },
+        {
+          "text": "Work-other things balance: Want to maintain personal and social life with work life",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_4",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Well-Being",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Culture Diversity",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Student-centered environment for growth opportunities",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Financial",
+          "space_before": 8.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.67,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "333333",
+          "line_spacing": 10.67
+        },
+        {
+          "text": "Financial Support demonstrate that many students do not understand the financial implications of attending a doctoral program at the time of enrollment, making decisions regarding program",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_4",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Research grants and scholarships to have a substantial impact on students’ perseverance",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_4",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.5,
+      "top": 2.3,
+      "width": 0.87,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "Market",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.2
+        },
+        {
+          "text": "Trends",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.2
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 1.6,
+      "top": 2.3,
+      "width": 0.81,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "Consumer",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.2
+        },
+        {
+          "text": "Landscape",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.2
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 3.61,
+      "top": 2.46,
+      "width": 1.4,
+      "height": 0.4,
+      "paragraphs": [
+        {
+          "text": "Key Insights &\u000bStrategy",
+          "alignment": "CENTER",
+          "font_name": "Arial",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 12.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 1.06,
+      "top": 3.04,
+      "width": 0.87,
+      "height": 0.27,
+      "paragraphs": [
+        {
+          "text": "Institution",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.2
+        },
+        {
+          "text": "Landscape",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.2
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.49,
+      "top": 4.24,
+      "width": 4.65,
+      "height": 0.48,
+      "paragraphs": [
+        {
+          "text": "Translating research into tangible medical outcomes by providing tangible benefits",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 14.4
+        }
+      ]
+    }
+  },
+  "slide-33": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Our Approach & Its Purpose",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.27,
+      "top": 1.42,
+      "width": 0.47,
+      "height": 0.61,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-2": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "1",
+          "font_name": "Proxima Nova",
+          "font_size": 24.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 24.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 2.67,
+      "top": 1.44,
+      "width": 5.0,
+      "height": 0.58,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Ads with varied messaging",
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 11.0
+        },
+        {
+          "text": "at each stage of your consumer journey",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 2.27,
+      "top": 2.58,
+      "width": 0.47,
+      "height": 0.61,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-4": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "2",
+          "font_name": "Proxima Nova",
+          "font_size": 24.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 24.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 2.67,
+      "top": 2.6,
+      "width": 5.26,
+      "height": 1.09,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-3": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Hyper-optimised Landing Pages",
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 11.0
+        },
+        {
+          "text": "Serves a singular and more focused purpose – to lead prospects to take a desired action",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "collect data and create a bank of prospects for your sales/marketing team to analyse & understand better",
+          "bullet": true,
+          "level": 0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 2.27,
+      "top": 4.25,
+      "width": 0.47,
+      "height": 0.61,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-6": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "3",
+          "font_name": "Proxima Nova",
+          "font_size": 24.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_2",
+          "line_spacing": 24.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 2.67,
+      "top": 4.27,
+      "width": 5.0,
+      "height": 0.58,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-5": 0.04
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Downloadable Offer/Hook",
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "ACCENT_1",
+          "line_spacing": 11.0
+        },
+        {
+          "text": "PhD Programme Brochure with Application Details",
+          "bullet": true,
+          "level": 0,
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 10.0
+        }
+      ]
+    }
+  },
+  "slide-34": {
+    "shape-0": {
+      "left": 0.47,
+      "top": 1.45,
+      "width": 2.83,
+      "height": 2.72,
+      "placeholder_type": "TITLE",
+      "paragraphs": [
+        {
+          "text": "Maximising brand health",
+          "font_name": "Proxima Nova Extrabold",
+          "font_size": 26.0,
+          "bold": false,
+          "line_spacing": 29.9
+        },
+        {
+          "text": "and business outcomes for leading brands",
+          "font_name": "Proxima Nova Extrabold",
+          "font_size": 26.0,
+          "bold": false,
+          "line_spacing": 29.9
+        }
+      ]
+    }
+  },
+  "slide-35": {
+    "shape-0": {
+      "left": 0.23,
+      "top": 0.77,
+      "width": 3.28,
+      "height": 2.85,
+      "placeholder_type": "BODY",
+      "default_font_size": 300.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-1": 0.54
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "45",
+          "font_size": 196.0
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.5,
+      "top": 3.44,
+      "width": 3.09,
+      "height": 1.48,
+      "placeholder_type": "TITLE",
+      "default_font_size": 44.0,
+      "overlap": {
+        "overlapping_shapes": {
+          "shape-0": 0.54
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Awards & counting!",
+          "theme_color": "LIGHT_1"
+        }
+      ]
+    }
+  },
+  "slide-36": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.84,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Experience & skills to meet your needs",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.68,
+      "top": 1.75,
+      "width": 0.99,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Specialisms",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.68,
+      "top": 3.12,
+      "width": 0.99,
+      "height": 0.3,
+      "paragraphs": [
+        {
+          "text": "Tech Expertise",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": true,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 8.8
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.68,
+      "top": 4.6,
+      "width": 0.99,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Certifications",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": true,
+          "theme_color": "LIGHT_1"
+        }
+      ]
+    }
+  },
+  "slide-37": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "The tools we use",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 1.16,
+      "width": 3.46,
+      "height": 0.63,
+      "placeholder_type": "BODY",
+      "paragraphs": [
+        {
+          "text": "Sitemap, Information Architecture & User Testing",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.5
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 5.02,
+      "top": 1.16,
+      "width": 3.08,
+      "height": 0.27,
+      "placeholder_type": "BODY",
+      "paragraphs": [
+        {
+          "text": "Marketing",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.5
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.49,
+      "top": 2.53,
+      "width": 4.32,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Wireframing & Prototyping",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.5
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 3.59,
+      "top": 2.96,
+      "width": 0.96,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "Octopus",
+          "font_name": "Arial",
+          "font_size": 11.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 5.02,
+      "top": 2.53,
+      "width": 3.23,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Graphic, UX/UI Design & Animations",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.5
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.53,
+      "top": 3.74,
+      "width": 1.34,
+      "height": 0.21,
+      "placeholder_type": "BODY",
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.06
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Frontend",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.5
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 0.39,
+      "top": 4.53,
+      "width": 0.85,
+      "height": 0.35,
+      "paragraphs": [
+        {
+          "text": "Bootstrap",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 1.42,
+      "top": 4.54,
+      "width": 1.12,
+      "height": 0.35,
+      "paragraphs": [
+        {
+          "text": "Tailwind CSS",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-38": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Data Scraping",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 1.1,
+      "width": 4.0,
+      "height": 1.52,
+      "paragraphs": [
+        {
+          "text": "Construct Digital Proprietary Tool",
+          "font_name": "Proxima Nova",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 14.0
+        },
+        {
+          "text": "Today's customers no longer accept blanket messaging. Understanding your consumers is integral to effective brand positioning and marketing strategy.",
+          "space_before": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.0
+        },
+        {
+          "text": "Eliminate the need for guesswork & craft the way for more data-driven decision-making to reach the right audiences effectively with tailored content through our tool.",
+          "space_before": 6.0,
+          "space_after": 6.0,
+          "font_name": "Proxima Nova",
+          "font_size": 11.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 11.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 5.78,
+      "top": 1.1,
+      "width": 3.56,
+      "height": 0.53,
+      "paragraphs": [
+        {
+          "text": "Define Targeting Parameters & Data Sources",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Specific parameters based on the Audience, Personas, Channels (e.g. LinkedIn)",
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 5.78,
+      "top": 1.83,
+      "width": 3.56,
+      "height": 0.7,
+      "paragraphs": [
+        {
+          "text": "Data Scraping, Leads Clustering & QA",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "Once we set the parameters, we generate the desired target list. We analyze, cluster and clean the data to guarantee the accuracy of the audience dataset.",
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 5.78,
+      "top": 2.72,
+      "width": 3.56,
+      "height": 0.7,
+      "paragraphs": [
+        {
+          "text": "Campaigns Setup",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        },
+        {
+          "text": "We use the datasets acquired (emails/phone/company list) and create a Custom Audience list that enables us to target across multiple platforms (LinkedIn, Facebook, & more)",
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 10.0
+        }
+      ]
+    }
+  },
+  "slide-39": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 7.41,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Case Study",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 1.1,
+      "width": 4.23,
+      "height": 0.43,
+      "paragraphs": [
+        {
+          "text": "NUS Business School",
+          "font_name": "Proxima Nova",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.8
+        },
+        {
+          "text": "Graduate Studies Admissions Campaign",
+          "font_name": "Proxima Nova",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 12.8
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 1.68,
+      "width": 4.03,
+      "height": 1.98,
+      "paragraphs": [
+        {
+          "text": "Objective",
+          "space_before": 8.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Acquire and nurture leads for 3 NUS GSO’s programme.",
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "The Insight",
+          "space_before": 8.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Simple user journeys result in strong conversion rates. Typically, users don’t convert all at once; they must be reminded. And target audiences must be built on historical data.",
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "The Solution",
+          "space_before": 8.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 9.0
+        },
+        {
+          "text": "Created a persona-driven approach based on historical data and attributes of GSO alumni and produced multiple landing pages with key selling points. We also developed and implemented an end-to-end conversion optimized media plan via an omni-channel media strategy.",
+          "space_before": 2.0,
+          "font_name": "Proxima Nova",
+          "font_size": 9.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 9.0
+        }
+      ]
+    }
+  },
+  "slide-40": {
+    "shape-0": {
+      "left": 0.36,
+      "top": 2.83,
+      "width": 9.26,
+      "height": 0.5,
+      "paragraphs": [
+        {
+          "text": "Count on us to create work that works for you, your business and your customers.",
+          "font_name": "Proxima Nova",
+          "font_size": 18.0,
+          "color": "CCCCCC",
+          "line_spacing": 20.7
+        }
+      ]
+    }
+  },
+  "slide-41": {
+    "shape-0": {
+      "left": 0.49,
+      "top": 0.38,
+      "width": 8.29,
+      "height": 0.38,
+      "placeholder_type": "TITLE",
+      "default_font_size": 28.0,
+      "paragraphs": [
+        {
+          "text": "Presentation Deck Template Graphic Elements",
+          "line_spacing": 9.6
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 0.49,
+      "top": 1.26,
+      "width": 2.04,
+      "height": 0.13,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "FONT STYLE & SIZE",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 0.49,
+      "top": 1.44,
+      "width": 8.26,
+      "height": 1.13,
+      "paragraphs": [
+        {
+          "text": "Cover Title Proxima Nova Bold 42 pts.",
+          "font_name": "Proxima Nova",
+          "font_size": 42.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 33.6
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 0.49,
+      "top": 2.74,
+      "width": 8.26,
+      "height": 0.38,
+      "paragraphs": [
+        {
+          "text": "Chapter Headlines Proxima Nova Bold 28 pts.",
+          "font_name": "Proxima Nova",
+          "font_size": 28.0,
+          "bold": true,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 22.4
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 0.49,
+      "top": 3.32,
+      "width": 8.26,
+      "height": 0.19,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Body Text Proxima Nova Normal 9—24 pts.",
+          "font_name": "Proxima Nova",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 11.2
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.49,
+      "top": 3.96,
+      "width": 2.04,
+      "height": 0.13,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.09
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "COLORS",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "color": "000000",
+          "line_spacing": 8.0
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 0.49,
+      "top": 4.19,
+      "width": 0.75,
+      "height": 0.75,
+      "paragraphs": [
+        {
+          "text": "Construct Blue",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 7.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.0
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 1.33,
+      "top": 4.19,
+      "width": 0.75,
+      "height": 0.75,
+      "paragraphs": [
+        {
+          "text": "Construct Red",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 7.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.0
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 2.17,
+      "top": 4.19,
+      "width": 0.75,
+      "height": 0.75,
+      "paragraphs": [
+        {
+          "text": "Construct Green",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 7.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.0
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 3.0,
+      "top": 4.19,
+      "width": 0.75,
+      "height": 0.75,
+      "paragraphs": [
+        {
+          "text": "Construct Purple",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 7.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.0
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 3.84,
+      "top": 4.19,
+      "width": 0.75,
+      "height": 0.75,
+      "paragraphs": [
+        {
+          "text": "Construct Yellow",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 7.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 7.0
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 4.67,
+      "top": 4.19,
+      "width": 0.75,
+      "height": 0.75,
+      "paragraphs": [
+        {
+          "text": "Construct Black",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 7.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "LIGHT_1",
+          "line_spacing": 7.0
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 5.51,
+      "top": 4.19,
+      "width": 0.75,
+      "height": 0.75,
+      "paragraphs": [
+        {
+          "text": "Construct Gray",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 7.0,
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "theme_color": "DARK_1",
+          "line_spacing": 7.0
+        }
+      ]
+    }
+  },
+  "slide-50": {
+    "shape-0": {
+      "left": 0.37,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Eye",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Strategy)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.25,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Flutter",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Flutter App Dev)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.12,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Gear - Digital",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Technology",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.0,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Gear - Generic",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Secondary Name)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.88,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Globe",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Embracing Digital Culture)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.37,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Globe - Publish",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Influence Publication)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 2.25,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Hubspot",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Hubspot)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.12,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Ideas - Connections",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Insight and Analytics)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.0,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "iOS App",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(iOS App Dev)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 7.88,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Keywords - Check",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Keyword Targeting)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.37,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Light Bulb - Gear",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Concept Development)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 2.25,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Link Building",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Link Building)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 4.12,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Magnet",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Inbound Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 6.0,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mail - Arrow",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Email Campaigns)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 7.88,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Megaphone - Sentiment",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Social Media Advertising)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 0.37,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Megaphone 1",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Strat Consulting)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 2.25,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Megaphone 2",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 4.12,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile - Chat",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Social Media Engagement)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 6.0,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile Code",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Mobile App Dev)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 7.88,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile - Ecommerce",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Ecommerce Dev)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    }
+  },
+  "slide-51": {
+    "shape-0": {
+      "left": 0.37,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Android - App",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Android App Dev)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.25,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Arrows",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Physical To Digital)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.12,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "B2B",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(B2B Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.0,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Briefcase",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Business Requirement)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.88,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Camera",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Studio Services)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.37,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Chat - Feedback",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Feedback)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 2.25,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Chat - Heart",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Digital Marketing Solutions)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.12,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "China",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(China Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.0,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Cloud - Arrows",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Tech Transformation)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 7.88,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Coins",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(PPC)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.37,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Data - Flag",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Performance Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 2.25,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Desktop - Graphs",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Website Design)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 4.12,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Primary Name",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Secondary Name)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 6.0,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Desktop - Meeting",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Strat Workshop)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 7.88,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Desktop - Play",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(TV)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 0.37,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Desktop - Text",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Media Desktop)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 2.25,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Desktop - Upward Arrow",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Ecommerce CRO)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 4.12,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Ecommerce",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Ecommerce Web Design)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 6.0,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Email",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Email Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 7.88,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Exchange",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Programmatic Ad)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    }
+  },
+  "slide-52": {
+    "shape-0": {
+      "left": 0.37,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile - Heart",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Social Media)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.25,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile - Links",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(App Ads)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.12,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile - Social",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Social Media Solutions)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.0,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile - Money",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Media Buying)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.88,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Mobile - Arrow",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Content Strat)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.37,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Pencil",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Creative Pencil)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 2.25,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "People",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Respect)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.12,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Person - 5 Stars",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Experiential Activation)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.0,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Person - Check",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Dependable)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 7.88,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Persona - Directions",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Customer Experience)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.37,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Persona - Links",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Internal Org)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 2.25,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Persona - Profile",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Profiling)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 4.12,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Persona - Sentiment",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Digital Strat)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 6.0,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Persona",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Digital Advertising)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 7.88,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Play - Film",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Film & Motion Graphics)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 0.37,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Play",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Video Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 2.25,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Revenue - Bars",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Ecommerce Strategy)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 4.12,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "RIbbon - Star",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Content)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 6.0,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Search Bars",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Marketing Research)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 7.88,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Search - Document",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Search)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    }
+  },
+  "slide-53": {
+    "shape-0": {
+      "left": 0.37,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Search - Magnifying Glass",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Search)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.25,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Search - Text",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(SEM)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.12,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "SEO",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(SEO Solutions)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-3": {
+      "left": 6.0,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Strategy - Persona",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Account Based Marketing)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-4": {
+      "left": 7.88,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Strategy - Tool",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Digital Strat)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-5": {
+      "left": 0.37,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Summit - Flag",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Growth Oriented)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-6": {
+      "left": 2.25,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Tablet - Bars",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Performance Solutions)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-7": {
+      "left": 4.12,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Target - Yellow",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Strategy)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-8": {
+      "left": 6.0,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Tools - Persona",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Marketing Automation)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-9": {
+      "left": 7.88,
+      "top": 2.39,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "UI - UX",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(UI-UX Design)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-10": {
+      "left": 0.37,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Value - Pie Chart",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Value Proposition)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-11": {
+      "left": 2.12,
+      "top": 3.76,
+      "width": 2.01,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Website - Arrow Up",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Digital Marketing Automation)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-12": {
+      "left": 4.12,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Website - Arrow",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Native Advertising)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-13": {
+      "left": 6.0,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Website - Code",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Web App Dev)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-14": {
+      "left": 7.88,
+      "top": 3.76,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Website - Play",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Display Campaign)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-15": {
+      "left": 0.37,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Website - Search",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Keyword Search)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-16": {
+      "left": 2.25,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Website - Star",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Brand Identity)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-17": {
+      "left": 4.12,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Primary Name",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "color": "000000"
+        },
+        {
+          "text": "(Secondary Name)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "color": "000000",
+          "line_spacing": 10.0
+        }
+      ]
+    },
+    "shape-18": {
+      "left": 6.0,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Website - Upward Arrow",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Demand and Lead Gen)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-19": {
+      "left": 7.88,
+      "top": 5.13,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Wordpress",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(WordPress)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    }
+  },
+  "slide-54": {
+    "shape-0": {
+      "left": 0.37,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Writing - Box",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Ownership Mindset)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-1": {
+      "left": 2.25,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Writing - Paper",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Copywriting)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    },
+    "shape-2": {
+      "left": 4.12,
+      "top": 1.03,
+      "width": 1.75,
+      "height": 0.31,
+      "overflow": {
+        "frame": {
+          "overflow_bottom": 0.07
+        }
+      },
+      "paragraphs": [
+        {
+          "text": "Writing - Pen",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "bold": true,
+          "theme_color": "DARK_1"
+        },
+        {
+          "text": "(Media Planning)",
+          "alignment": "CENTER",
+          "font_name": "Proxima Nova",
+          "font_size": 10.0,
+          "theme_color": "DARK_1"
+        }
+      ]
+    }
+  }
+}
