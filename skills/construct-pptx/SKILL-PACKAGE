@@ -1,0 +1,353 @@
+# Construct PPTX Skill Package
+
+Complete skill package for creating branded PowerPoint presentations for Construct Digital.
+
+**Version:** 2.0 (December 2025)
+**Template:** 00 CD Deck Template 2022 v1.0.pptx (66 slides)
+
+---
+
+## Quick Start
+
+```bash
+# 1. Rearrange slides from template
+python scripts/rearrange.py "assets/00 CD Deck Template 2022 v1.0.pptx" working.pptx 0,7,15,14,50
+
+# 2. Extract text positions
+python scripts/inventory.py working.pptx text-inventory.json
+
+# 3. Create replacement JSON, then apply
+python scripts/replace.py working.pptx replacement-text.json output.pptx
+
+# 4. Validate with thumbnails (requires LibreOffice)
+python scripts/thumbnail.py output.pptx thumbnails --cols 4
+```
+
+---
+
+## File Structure
+
+```
+construct-pptx/
+├── SKILL.md                    # Main skill documentation
+├── SKILL-PACKAGE.md            # This file (complete package)
+├── assets/
+│   └── 00 CD Deck Template 2022 v1.0.pptx  # Official template (66 slides)
+├── scripts/
+│   ├── inventory.py            # Extract text shapes from PPTX
+│   ├── rearrange.py            # Select and reorder slides
+│   ├── replace.py              # Apply text replacements
+│   └── thumbnail.py            # Generate visual thumbnails
+└── references/
+    ├── layouts.md              # Slide layout reference
+    ├── brand-config.json       # Brand colors and specs
+    └── department-configs.md   # Pre-built deck structures
+```
+
+---
+
+## Slide Layout Reference
+
+### Title Slides (0, 2-6)
+
+| Index | Background | Use For |
+|-------|------------|---------|
+| 0 | Blue | Primary cover page |
+| 2 | Green | Section opener |
+| 3 | Red | Section opener |
+| 4 | Blue + Image Right | Visual opener |
+| 5 | Blue + Image Left | Visual opener |
+| 6 | Purple | Section opener |
+
+**Shapes:**
+- shape-0: Title (42pt)
+- shape-1: Subtitle (24pt)
+- shape-2: Author/date (10pt)
+
+### Section Dividers (7-10)
+
+| Index | Background |
+|-------|------------|
+| 7 | Blue |
+| 8 | Green |
+| 9 | Red |
+| 10 | Purple |
+
+**Shapes:**
+- shape-0: Section title (36pt)
+- shape-1: Section subtitle (24pt)
+
+### Content Slides
+
+| Index | Layout | Shapes |
+|-------|--------|--------|
+| 11 | Big Concept | shape-0: Main text (56pt), shape-1: Description |
+| 12-13 | Content + Image | shape-0: Title, shape-1: Body |
+| 14 | Two Column | shape-0: Title, shape-1/2: Col 1, shape-3/4: Col 2 |
+| 15 | Bullets + Statement | shape-0: Title, shape-1: Bullets, shape-2: Statement |
+
+### Data & Stats
+
+| Index | Layout | Shapes |
+|-------|--------|--------|
+| 23 | Quote | shape-0: Quote text (34pt, centered) |
+| 24 | Big Number | shape-0: Number (74pt), shape-1: Description |
+| 25 | Principles | shape-0: Number, shape-1-5: Text blocks |
+
+### Special Layouts
+
+| Index | Layout | Notes |
+|-------|--------|-------|
+| 26 | Capabilities | 3 capability areas |
+| 27 | Channels | Channel rationale |
+| 28 | Funnel | Conversion funnel diagram |
+| 29 | Campaign Flow | Campaign flow diagram |
+| 31-40 | Team | Various team grid sizes |
+| 41-42 | Persona | Consumer persona cards |
+| 43 | Timeline | Timeline with months |
+| 47 | Budget | Budget table |
+| 49 | Case Study | Case study with logo |
+| 50 | Closing | Thank you slide |
+
+**Do NOT use:** 33, 51-65 (reference slides)
+
+---
+
+## Replacement JSON Format
+
+```json
+{
+  "slide-0": {
+    "shape-0": {
+      "paragraphs": [
+        {"text": "Presentation Title", "bold": true}
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {"text": "Subtitle text here"}
+      ]
+    }
+  },
+  "slide-1": {
+    "shape-0": {
+      "paragraphs": [
+        {"text": "Section Title"}
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {"text": "Section description"}
+      ]
+    }
+  },
+  "slide-2": {
+    "shape-0": {
+      "paragraphs": [
+        {"text": "Slide Title"}
+      ]
+    },
+    "shape-1": {
+      "paragraphs": [
+        {"text": "First bullet point", "bullet": true},
+        {"text": "Second bullet point", "bullet": true},
+        {"text": "Third bullet point", "bullet": true}
+      ]
+    }
+  }
+}
+```
+
+### Paragraph Properties
+
+| Property | Type | Description |
+|----------|------|-------------|
+| `text` | string | The text content |
+| `bold` | boolean | Bold formatting |
+| `italic` | boolean | Italic formatting |
+| `font_name` | string | Font name (default: Proxima Nova) |
+| `font_size` | float | Font size in points |
+| `color` | string | Hex color (e.g., "000000") |
+| `theme_color` | string | Theme color (e.g., "DARK_1", "ACCENT_1") |
+| `alignment` | string | "LEFT", "CENTER", "RIGHT" |
+| `bullet` | boolean | Enable bullet point |
+| `level` | int | Bullet indent level (0-based) |
+| `space_before` | float | Space before paragraph (points) |
+| `line_spacing` | float | Line spacing (points) |
+
+---
+
+## Common Deck Structures
+
+### Client Proposal
+```
+0, 7, 15, 14, 8, 24, 27, 28, 31, 50
+```
+Title → Section → Bullets → TwoCol → Section → Stats → Channels → Funnel → Team → Close
+
+### QBR / Campaign Review
+```
+0, 7, 24, 24, 15, 8, 47, 50
+```
+Title → Section → Stats → Stats → Bullets → Section → Budget → Close
+
+### Workshop
+```
+0, 7, 15, 14, 14, 8, 15, 50
+```
+Title → Section → Bullets → TwoCol → TwoCol → Section → Bullets → Close
+
+### Annual Planning
+```
+0, 7, 15, 14, 8, 15, 43, 50
+```
+Title → Section → Bullets → TwoCol → Section → Bullets → Timeline → Close
+
+### Pitch Deck
+```
+0, 11, 7, 15, 8, 24, 9, 49, 50
+```
+Title → Big Concept → Section → Bullets → Section → Stats → Section → Case Study → Close
+
+---
+
+## Brand Specifications
+
+### Colors
+
+| Name | Hex | Use |
+|------|-----|-----|
+| Blue | #1E5AA8 | Primary, headers, CTAs |
+| Red | #CC0000 | Warnings, Section 2 |
+| Green | #00852B | Positive, Section 3 |
+| Yellow | #FAC80A | Accents, numbers |
+| Purple | #901F76 | Accents |
+
+### Text Rules
+
+- White text on colored backgrounds
+- Black text on white backgrounds
+- Yellow backgrounds use black text
+- Font: Proxima Nova (Arial fallback)
+
+### Theme Colors (from PPTX)
+
+| Name | Value | Use |
+|------|-------|-----|
+| DARK_1 | #000000 | Primary text |
+| LIGHT_1 | #FFFFFF | Light text |
+| ACCENT_1 | #058DC7 | Blue accent |
+| ACCENT_2 | #50B432 | Green accent |
+| ACCENT_3 | #ED561B | Orange accent |
+| ACCENT_4 | #EDEF00 | Yellow accent |
+
+---
+
+## Dependencies
+
+```bash
+pip install python-pptx Pillow six
+```
+
+For thumbnail generation:
+- LibreOffice (for PDF conversion)
+- pdftoppm (from poppler-utils)
+
+---
+
+## Script Reference
+
+### inventory.py
+
+Extract text shapes and positions from a PPTX file.
+
+```bash
+python scripts/inventory.py input.pptx output.json
+python scripts/inventory.py input.pptx output.json --issues-only
+```
+
+**Output:** JSON with slide-X/shape-X structure showing all text shapes, positions, and formatting.
+
+### rearrange.py
+
+Create a new PPTX with selected slides in specified order.
+
+```bash
+python scripts/rearrange.py template.pptx output.pptx 0,7,15,14,50
+```
+
+**Arguments:**
+- template.pptx: Source template file
+- output.pptx: Output file path
+- sequence: Comma-separated slide indices (0-based)
+
+**Note:** Slides can be repeated (e.g., `0,7,15,15,50`)
+
+### replace.py
+
+Apply text replacements from JSON to PPTX.
+
+```bash
+python scripts/replace.py input.pptx replacements.json output.pptx
+```
+
+**Features:**
+- Clears all text shapes from inventory
+- Applies replacement paragraphs with formatting
+- Validates shape references before processing
+- Detects text overflow and warns if worsened
+
+### thumbnail.py
+
+Generate thumbnail grids from PPTX slides.
+
+```bash
+python scripts/thumbnail.py input.pptx [output_prefix] [--cols N] [--outline-placeholders]
+```
+
+**Options:**
+- `--cols N`: Number of columns (default: 5, max: 6)
+- `--outline-placeholders`: Highlight text shapes with red outlines
+
+**Requires:** LibreOffice (`soffice`) and pdftoppm
+
+---
+
+## Example: Creating a Client Proposal
+
+```bash
+# 1. Rearrange template for proposal structure
+python scripts/rearrange.py "assets/00 CD Deck Template 2022 v1.0.pptx" proposal.pptx 0,7,15,14,8,24,31,50
+
+# 2. Get shape inventory
+python scripts/inventory.py proposal.pptx proposal-inventory.json
+
+# 3. Create replacement JSON (see format above)
+# Edit proposal-content.json with your content
+
+# 4. Apply replacements
+python scripts/replace.py proposal.pptx proposal-content.json final-proposal.pptx
+
+# 5. Verify output
+python scripts/thumbnail.py final-proposal.pptx proposal-thumbs --cols 4
+```
+
+---
+
+## Troubleshooting
+
+### "Shape not found" error
+- Run `inventory.py` on your working PPTX to see actual shape IDs
+- Shape IDs are assigned by visual position (top-to-bottom, left-to-right)
+
+### Text overflow warnings
+- Reduce text content or font size
+- The replace script will warn if text exceeds shape bounds
+
+### Bullets not rendering in Google Slides
+- Known issue: bullets joined with `\n` don't render correctly
+- Use separate paragraph objects with `"bullet": true`
+
+### Missing fonts
+- Template uses Proxima Nova
+- Falls back to Arial if not installed
