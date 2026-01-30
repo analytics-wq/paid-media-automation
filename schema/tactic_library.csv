@@ -1,28 +1,29 @@
 funnel,channel,format,tactic_name,description,priority
-Prospecting,Meta,Traffic,Meta Traffic Prospecting Ad,Traffic ads to reach broad or interest-based audiences and drive users to the landing page for on-web leads and conversions,recommended
-Prospecting,Meta,Lead Gen,Meta Lead Gen Prospecting Ad,Lead Form ads to capture basic lead information from cold or broad audiences,optional
-Prospecting,LinkedIn,Traffic,LinkedIn Traffic Prospecting Ad,"Traffic ads targeting job title, seniority, skills, and industry to drive qualified users to the landing page for on-web leads and conversions",essential
-Prospecting,LinkedIn,Lead Gen,LinkedIn Lead Gen Prospecting Ad,Lead Gen Form ads to capture brochure downloads or initial leads from targeted professional audiences,recommended
-Prospecting,Google,Search,Google Search Prospecting Ad,High-intent keyword bidding to capture users actively searching for programme-related terms,recommended
+Nurturing,Email,Nurture Email,Nurture Email,Automated email sequences designed to nurture warm leads and move them toward application,essential
+Prospecting,Email,eDM,eDM,Email blast to reach a broad or pre-qualified database with programme information and drive initial engagement,situational
 Prospecting,Google,Display,Google Display Prospecting Ad,Display prospecting using affinity and custom intent segments to build top-of-funnel awareness,optional
 Prospecting,Google,Performance Max,Google Performance Max Prospecting Ad,Full-funnel PMAX campaigns using audience signals and automation to scale conversions across all Google surfaces,essential
-Prospecting,Email,eDM,eDM,Email blast to reach a broad or pre-qualified database with programme information and drive initial engagement,situational
-Retargeting,Meta,Traffic,Meta Traffic Retargeting Ad,Traffic retargeting to bring back users who engaged or visited the landing page to complete on-web leads and conversions,situational
-Retargeting,Meta,Lead Gen,Meta Lead Gen Retargeting Ad,Lead Form retargeting for users who engaged previously but did not complete a form,essential
-Retargeting,LinkedIn,Traffic,LinkedIn Traffic Retargeting Ad,Traffic retargeting to re-engage warm audiences and drive them back to the landing page for on-web leads and conversions,situational
-Retargeting,LinkedIn,Lead Gen,LinkedIn Lead Gen Retargeting Ad,Lead Gen Form ads retargeting landing page visitors or engagers to capture brochure downloads,essential
-Retargeting,Google,Search,Google Search Retargeting Ad,Search retargeting using remarketing lists to improve conversion likelihood from past visitors,situational
+Prospecting,Google,Search,Google Search Prospecting Ad,High-intent keyword bidding to capture users actively searching for programme-related terms,recommended
 Retargeting,Google,Display,Google Display Retargeting Ad,Display remarketing banners shown to users who visited key pages but didn’t convert,essential
 Retargeting,Google,Performance Max,Google Performance Max Retargeting Ad,PMAX retargeting asset groups focused on users who engaged with ads or visited the landing page,optional
-Nurturing,Meta,Traffic,Meta Traffic Nurturing Ad,Traffic ads to re-engage warm leads and drive them back to the landing page for on-web conversions,essential
+Retargeting,Google,Search,Google Search Retargeting Ad,Search retargeting using remarketing lists to improve conversion likelihood from past visitors,situational
 Nurturing,LinkedIn,Traffic,LinkedIn Traffic Nurturing Ad,Traffic ads targeting previously engaged audiences to bring them back to the landing page to complete conversions,essential
-Nurturing,Email,Nurture Email,Nurture Email,Automated email sequences designed to nurture warm leads and move them toward application,essential
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-essential,"highest priority, must-have",,,,
-recommended,"best-practice, good-to-have",,,,
-optional,not optimal but can be an okay add-on,,,,
-situational,"only under special requests, factors, or situations",,,,
+Prospecting,LinkedIn,Lead Gen,LinkedIn Lead Gen Prospecting Ad,Lead Gen Form ads to capture brochure downloads or initial leads from targeted professional audiences,recommended
+Prospecting,LinkedIn,Traffic,LinkedIn Traffic Prospecting Ad,"Traffic ads targeting job title, seniority, skills, and industry to drive qualified users to the landing page for on-web leads and conversions",essential
+Retargeting,LinkedIn,Lead Gen,LinkedIn Lead Gen Retargeting Ad,Lead Gen Form ads retargeting landing page visitors or engagers to capture brochure downloads,essential
+Retargeting,LinkedIn,Traffic,LinkedIn Traffic Retargeting Ad,Traffic retargeting to re-engage warm audiences and drive them back to the landing page for on-web leads and conversions,situational
+Nurturing,Meta,Traffic,Meta Traffic Nurturing Ad,Traffic ads to re-engage warm leads and drive them back to the landing page for on-web conversions,essential
+Prospecting,Meta,Lead Gen,Meta Lead Gen Prospecting Ad,Lead Form ads to capture basic lead information from cold or broad audiences,optional
+Prospecting,Meta,Traffic,Meta Traffic Prospecting Ad,Traffic ads to reach broad or interest-based audiences and drive users to the landing page for on-web leads and conversions,recommended
+Retargeting,Meta,Lead Gen,Meta Lead Gen Retargeting Ad,Lead Form retargeting for users who engaged previously but did not complete a form,essential
+Retargeting,Meta,Traffic,Meta Traffic Retargeting Ad,Traffic retargeting to bring back users who engaged or visited the landing page to complete on-web leads and conversions,situational
+Prospecting,TikTok,Image Ads,TikTok Image Ads Prospecting Ad,Single-image ads (9:16) to reach broad or interest-based audiences and drive clicks to the landing page.,optional
+Prospecting,TikTok,Image Lead Gen,TikTok Image Lead Gen Prospecting Ad,Instant Form lead gen using multiple images to capture leads natively on TikTok from cold audiences.,optional
+Prospecting,TikTok,Playable Ads,TikTok Playable Ads Prospecting Ad,Interactive playable creative (video + HTML) for higher engagement; best for specific experiences or app-like demos.,situational
+Prospecting,TikTok,Spark Ads,TikTok Spark Ads Prospecting Ad,Uses organic TikTok posts as ad creatives to improve engagement and social proof while driving traffic or leads.,recommended
+Prospecting,TikTok,Video Ads,TikTok Video Ads Prospecting Ad,Video ads (typically 9:16) to build awareness and drive traffic or conversions from cold audiences.,recommended
+Prospecting,TikTok,Video Lead Gen,TikTok Video Lead Gen Prospecting Ad,Instant Form lead gen using a video creative to capture leads natively on TikTok from cold audiences.,optional
+Retargeting,TikTok,Image Lead Gen,TikTok Image Lead Gen Retargeting Ad,Instant Form retargeting to capture leads from warm audiences who engaged previously but did not submit.,essential
+Retargeting,TikTok,Spark Ads,TikTok Spark Ads Retargeting Ad,Spark Ads retargeting using organic posts to re-engage warm audiences and drive them back to convert.,situational
+Retargeting,TikTok,Video Ads,TikTok Video Ads Retargeting Ad,Video ads retargeting users who engaged with ads or visited key pages but did not convert.,situational
+Retargeting,TikTok,Video Lead Gen,TikTok Video Lead Gen Retargeting Ad,Video Instant Form retargeting to capture leads from warm audiences who engaged previously but did not submit.,essential
